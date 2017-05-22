@@ -1,0 +1,61 @@
+
+Structure for database: C:\JOBS\HUDSON\AF_CASS.DBF
+Number of data records:   80672
+Date of last update   : 08/10/1913
+Code Page             : 0
+Field  Field Name  Type       Width    Dec    Index  Collate
+    1  VOTERID     Character     15                  
+    2  MUNICIPALI  Character     30                  
+    3  FIRST       Character     20                  
+    4  MIDDLE      Character      1                  
+    5  LAST        Character     25                  
+    6  SUFFIX      Character     10                  
+    7  NAME        Character     50                  
+    8  ADD3        Character     50                  
+    9  ADD2        Character     50                  
+   10  ADD1        Character     50                  
+   11  SUITEAPT    Character     13                  
+   12  CITY        Character     25                  
+   13  STATE       Character      2                  
+   14  ZIP         Character     10                  
+   15  MAIL_ADD1   Character     50                  
+   16  MAIL_ADD2   Character     50                  
+   17  MAIL_ADD3   Character     50                  
+   18  MAIL_MUNIC  Character     50                  
+   19  MAIL_CITY   Character     25                  
+   20  MAIL_STATE  Character      2                  
+   21  MAIL_ZIP    Character      5                  
+   22  MAIL_ZIP4   Character      4                  
+   23  WARD        Character      2                  
+   24  DISTRICT    Character      2                  
+   25  TOWN        Character      3                  
+   26  INACTIVE_V  Character      5                  
+   27  VOTER_STAT  Character      5                  
+   28  OLD_ADD1    Character     50                  
+   29  OLD_ADD2    Character     50                  
+   30  OLD_ADD3    Character     50                  
+   31  OLD_CITY    Character     22                  
+   32  OLD_STATE   Character      2                  
+   33  OLD_ZIP     Character     10                  
+   34  POLL_AREA   Character     50                  
+   35  POLL_LOCAT  Character     50                  
+   36  POLL_STREE  Character     50                  
+   37  POLL_CITY   Character     25                  
+   38  POLL_STATE  Character      2                  
+   39  POLL_ZIP    Character     10                  
+   40  PARTY       Character     20                  
+   41  CART        Character      4                  
+   42  LOT         Character      5                  
+   43  DPB         Character      2                  
+   44  ZIP4        Character      4                  
+   45  LCSLNKRTRN  Character      2                  
+   46  DPV_CMRA    Character      1                  
+   47  DPVCNFRMTN  Character      1                  
+   48  DPVFLSPSTV  Character      1                  
+   49  DPVFTNTS    Character     14                  
+   50  LACS        Character      1                  
+   51  ZP4DPCMB    Character     13                  
+   52  STREAM_COD  Character      7                  
+   53  WS          Float         10      8           
+   54  STATUS      Character      5                  
+** Total **                    1066

@@ -1,0 +1,3126 @@
+<format formatfilename = ".\new mercer cnty final -05142013.pdf"
+        productversion = "FusionPro(TM) 5.8P2c"
+        exportdate = "05/17/13"
+        version = "5.8"
+
+/>
+<docsettings
+  uselegacyleading = "false"
+/>
+<colordict>
+  <color 
+        colorname = "Black" 
+        colorspace = "CMYK" 
+        cyan = 0.000000 
+        magenta = 0.000000 
+        yellow = 0.000000 
+        black = 100.000000 
+        /> 
+  <color 
+        colorname = "White" 
+        colorspace = "CMYK" 
+        cyan = 0.000000 
+        magenta = 0.000000 
+        yellow = 0.000000 
+        black = 0.000000 
+        /> 
+  <color 
+        colorname = "Red" 
+        colorspace = "CMYK" 
+        cyan = 0.000000 
+        magenta = 100.000000 
+        yellow = 100.000000 
+        black = 0.000000 
+        type = "Spot" 
+        /> 
+  <color 
+        colorname = "Green" 
+        colorspace = "CMYK" 
+        cyan = 100.000000 
+        magenta = 0.000000 
+        yellow = 100.000000 
+        black = 0.000000 
+        type = "Spot" 
+        /> 
+  <color 
+        colorname = "Blue" 
+        colorspace = "CMYK" 
+        cyan = 100.000000 
+        magenta = 100.000000 
+        yellow = 0.000000 
+        black = 0.000000 
+        type = "Spot" 
+        /> 
+  <color 
+        colorname = "Cyan" 
+        colorspace = "CMYK" 
+        cyan = 100.000000 
+        magenta = 0.000000 
+        yellow = 0.000000 
+        black = 0.000000 
+        /> 
+  <color 
+        colorname = "Magenta" 
+        colorspace = "CMYK" 
+        cyan = 0.000000 
+        magenta = 100.000000 
+        yellow = 0.000000 
+        black = 0.000000 
+        /> 
+  <color 
+        colorname = "Yellow" 
+        colorspace = "CMYK" 
+        cyan = 0.000000 
+        magenta = 0.000000 
+        yellow = 100.000000 
+        black = 0.000000 
+        /> 
+</colordict>
+
+<ruledefs>
+  < ruledef name = "Thin" 
+          color = "Black" 
+          width = 50 
+          lines = 1 
+ />
+  < ruledef name = "Medium" 
+          color = "Black" 
+          width = 200 
+          lines = 1 
+ />
+  < ruledef name = "Double" 
+          color = "Black" 
+          width = 50 
+          lines = 2 
+          gap = 200 
+ />
+  < ruledef name = "Thick" 
+          color = "Black" 
+          width = 300 
+          lines = 1 
+ />
+  < ruledef name = "Very Thin" 
+          color = "Black" 
+          width = 25 
+          lines = 1 
+ />
+</ruledefs>
+
+<conditiondict>
+</conditiondict>
+
+<charstyledict>
+  < charstyle 
+            name = "(no style)" 
+            fontfamily = "Arial" 
+            z = 100 
+            leading = 120 
+            setwidth = 100 
+            filltint = 100.000000 
+  />
+</charstyledict>
+
+<parastyledict>
+  < p 
+    name = "(no style)" 
+    charstyle = "(no style)" 
+    keeplines = "true" 
+    superratio = 60 
+    superoffset = 30 
+    subratio = 60 
+    suboffset = 10 
+    smallcapratio = 80 
+    wordspacemax = 1000 
+    wordspacemin = 200 
+    wordspaceopt = 250 
+    autoletterspace = "true" 
+    tabstops = "0;3600,Left;7200,Left;10800,Left;14400,Left;18000,Left;21600,Left;25200,Left;28800,Left;32400,Left;36000,Left;39600,Left;43200,Left;46800,Left;50400,Left;54000,Left;57600,Left;61200,Left;64800,Left;68400,Left;72000,Left;75600,Left;R3600,Left" 
+  />
+</parastyledict>
+
+<tabstyledict></tabstyledict>
+
+<chartformatdict>
+</chartformatdict>
+
+<tableformatdict>
+</tableformatdict>
+
+<flowdict>
+  <flow  
+       name = "" 
+       masterflow = "false" 
+       resizable = "false" 
+       id = "0" 
+       > 
+    <frames>
+      <frame type = "Rectangle"> 
+        <framepos type = "Normal" 
+                 pagenumber = 1 
+                 x = 0 
+                 y = 2165 
+                 width = 79194 
+                 depth = 313 
+                 layer = 27 
+                 columns = 1 
+                 verticaljust = top 
+                 drawshade = "true" 
+                 shadecolor = "White" 
+                 filltint = 100.000000 
+                 /> 
+        <RectangleData fill = "true" 
+                      close = "true" > 
+  </frame>
+
+    </frames>
+    <content>
+    </content> 
+  </flow> 
+  <flow  
+       name = "SUPERINTENDENT" 
+       masterflow = "false" 
+       resizable = "false" 
+       id = "0" 
+       > 
+    <frames>
+      <frame type = "Text"> 
+        <framepos type = "Normal" 
+                 pagenumber = 1 
+                 x = 0 
+                 y = 2195 
+                 width = 79194 
+                 depth = 253 
+                 layer = 30 
+                 columns = 1 
+                 verticaljust = top 
+                 drawshade = "true" 
+                 shadecolor = "White" 
+                 filltint = 100.000000 
+                 /> 
+        <textdata   >
+  </frame>
+
+    </frames>
+    <content>
+    <para style="(no style)" quad="C" findent="0" lindent="0" rindent="0" leadbefore="0" leadafter="0" widows="2" kerning="true" hyphenate="true" skipifempty="false" skipifemptyvar="false" noparabreakoncopyfit="false"><tracking newsize="0.000000"><f name="Arial"><z newsize="24.0"><color name="Black"><b><variable name="Super_Name1"></para>
+    </content> 
+  </flow> 
+  <flow  
+       name = "" 
+       masterflow = "false" 
+       resizable = "false" 
+       id = "0" 
+       > 
+    <frames>
+      <frame type = "Rectangle"> 
+        <framepos type = "Normal" 
+                 pagenumber = 1 
+                 x = 0 
+                 y = 3312 
+                 width = 78760 
+                 depth = 478 
+                 layer = 37 
+                 columns = 1 
+                 verticaljust = top 
+                 drawshade = "true" 
+                 shadecolor = "White" 
+                 filltint = 100.000000 
+                 /> 
+        <RectangleData fill = "true" 
+                      close = "true" > 
+  </frame>
+
+    </frames>
+    <content>
+    </content> 
+  </flow> 
+  <flow  
+       name = "POLL BOOK INFO" 
+       masterflow = "false" 
+       resizable = "false" 
+       id = "0" 
+       > 
+    <frames>
+      <frame type = "Text"> 
+        <framepos type = "Normal" 
+                 pagenumber = 1 
+                 x = 0 
+                 y = 3342 
+                 width = 78760 
+                 depth = 418 
+                 layer = 40 
+                 columns = 1 
+                 verticaljust = center 
+                 drawshade = "true" 
+                 shadecolor = "White" 
+                 filltint = 100.000000 
+                 /> 
+        <textdata   >
+  </frame>
+
+    </frames>
+    <content>
+    <para style="(no style)" quad="C" findent="0" lindent="0" rindent="0" leadbefore="0" leadafter="0" widows="2" kerning="true" hyphenate="true" skipifempty="false" skipifemptyvar="false" noparabreakoncopyfit="false"><tracking newsize="0.000000"><f name="Arial"><z newsize="36.0"><color name="Black"><b><variable name="Poll_Cover1"></para>
+    </content> 
+  </flow> 
+  <flow  
+       name = "" 
+       masterflow = "false" 
+       resizable = "false" 
+       id = "0" 
+       > 
+    <frames>
+      <frame type = "Rectangle"> 
+        <framepos type = "Normal" 
+                 pagenumber = 1 
+                 x = 0 
+                 y = 4103 
+                 width = 79108 
+                 depth = 713 
+                 layer = 47 
+                 columns = 1 
+                 verticaljust = top 
+                 drawshade = "true" 
+                 shadecolor = "White" 
+                 filltint = 100.000000 
+                 /> 
+        <RectangleData fill = "true" 
+                      close = "true" > 
+  </frame>
+
+    </frames>
+    <content>
+    </content> 
+  </flow> 
+  <flow  
+       name = "ELECTION INFO" 
+       masterflow = "false" 
+       resizable = "false" 
+       id = "0" 
+       > 
+    <frames>
+      <frame type = "Text"> 
+        <framepos type = "Normal" 
+                 pagenumber = 1 
+                 x = 0 
+                 y = 4153 
+                 width = 79108 
+                 depth = 613 
+                 layer = 50 
+                 columns = 1 
+                 verticaljust = top 
+                 drawshade = "true" 
+                 shadecolor = "White" 
+                 filltint = 100.000000 
+                 /> 
+        <textdata   >
+  </frame>
+
+    </frames>
+    <content>
+    <para style="(no style)" quad="C" findent="0" lindent="0" rindent="0" leadbefore="0" leadafter="0" widows="2" kerning="true" hyphenate="true" skipifempty="false" skipifemptyvar="false" noparabreakoncopyfit="false"><tracking newsize="0.000000"><f name="Arial"><z newsize="24.0"><color name="Black"><b><variable name="Elec_date1"></para><para style="(no style)" quad="C" findent="0" lindent="0" rindent="0" leadbefore="0" leadafter="0" widows="2" kerning="true" hyphenate="true" skipifempty="false" skipifemptyvar="false" noparabreakoncopyfit="false"><tracking newsize="0.000000"><f name="Arial"><z newsize="24.0"><color name="Black"><b><variable name="Elec_Name1"></para>
+    </content> 
+  </flow> 
+  <flow  
+       name = "" 
+       masterflow = "false" 
+       resizable = "false" 
+       id = "0" 
+       > 
+    <frames>
+      <frame type = "Rectangle"> 
+        <framepos type = "Normal" 
+                 pagenumber = 1 
+                 x = 0 
+                 y = 5007 
+                 width = 79108 
+                 depth = 426 
+                 layer = 57 
+                 columns = 1 
+                 verticaljust = top 
+                 drawshade = "true" 
+                 shadecolor = "White" 
+                 filltint = 100.000000 
+                 /> 
+        <RectangleData fill = "true" 
+                      close = "true" > 
+  </frame>
+
+    </frames>
+    <content>
+    </content> 
+  </flow> 
+  <flow  
+       name = "MUNICIPALI INFO" 
+       masterflow = "false" 
+       resizable = "false" 
+       id = "0" 
+       > 
+    <frames>
+      <frame type = "Text"> 
+        <framepos type = "Normal" 
+                 pagenumber = 1 
+                 x = 0 
+                 y = 5057 
+                 width = 79108 
+                 depth = 326 
+                 layer = 60 
+                 columns = 1 
+                 verticaljust = top 
+                 drawshade = "true" 
+                 shadecolor = "White" 
+                 filltint = 100.000000 
+                 /> 
+        <textdata   >
+  </frame>
+
+    </frames>
+    <content>
+    <para style="(no style)" quad="C" findent="0" lindent="0" rindent="0" leadbefore="0" leadafter="0" widows="2" kerning="true" hyphenate="true" skipifempty="false" skipifemptyvar="false" noparabreakoncopyfit="false"><tracking newsize="0.000000"><f name="Arial"><z newsize="24.0"><color name="Black"><b><variable name="MUNICIPALI1">&#32;&#19;<variable name="Poll_Cover2"></para>
+    </content> 
+  </flow> 
+  <flow  
+       name = "" 
+       masterflow = "false" 
+       resizable = "false" 
+       id = "0" 
+       > 
+    <frames>
+      <frame type = "Rectangle"> 
+        <framepos type = "Normal" 
+                 pagenumber = 5 
+                 x = 60483 
+                 y = 493 
+                 width = 12909 
+                 depth = 1378 
+                 layer = 27 
+                 columns = 1 
+                 verticaljust = top 
+                 drawborder = "true" 
+                 bordercolor = "Red" 
+                 borderthickness = 1000 
+                 stroketint = 100.000000 
+                 /> 
+        <RectangleData fill = "false" 
+                      close = "true" > 
+  </frame>
+
+    </frames>
+    <content>
+    </content> 
+  </flow> 
+  <flow  
+       name = "Tab Sep" 
+       masterflow = "false" 
+       resizable = "false" 
+       id = "0" 
+       > 
+    <frames>
+      <frame type = "Text"> 
+        <framepos type = "Normal" 
+                 pagenumber = 5 
+                 x = 60983 
+                 y = 543 
+                 width = 11909 
+                 depth = 1278 
+                 layer = 30 
+                 columns = 1 
+                 verticaljust = center 
+                 drawborder = "true" 
+                 bordercolor = "Red" 
+                 borderthickness = 1000 
+                 stroketint = 100.000000 
+                 /> 
+        <textdata   >
+  </frame>
+
+    </frames>
+    <content>
+    <para style="(no style)" quad="C" findent="0" lindent="0" rindent="0" leadbefore="0" leadafter="0" widows="2" kerning="true" hyphenate="true" skipifempty="false" skipifemptyvar="false" noparabreakoncopyfit="false"><tracking newsize="0.000000"><f name="Arial"><z newsize="72.0"><color name="Black"><b><variable name="TAB_SEP1"></para>
+    </content> 
+  </flow> 
+  <flow  
+       name = "" 
+       masterflow = "false" 
+       resizable = "false" 
+       id = "0" 
+       > 
+    <frames>
+      <frame type = "Rectangle"> 
+        <framepos type = "Normal" 
+                 pagenumber = 5 
+                 x = 76500 
+                 y = 26 
+                 width = 2347 
+                 depth = 6042 
+                 layer = 37 
+                 columns = 1 
+                 verticaljust = top 
+                 drawshade = "true" 
+                 shadecolor = "Black" 
+                 filltint = 100.000000 
+                 /> 
+        <RectangleData fill = "true" 
+                      close = "true" > 
+  </frame>
+
+    </frames>
+    <content>
+    </content> 
+  </flow> 
+  <flow  
+       name = "" 
+       masterflow = "false" 
+       resizable = "false" 
+       id = "0" 
+       > 
+    <frames>
+      <frame type = "Text"> 
+        <framepos type = "Normal" 
+                 pagenumber = 5 
+                 x = 76500 
+                 y = 26 
+                 width = 2347 
+                 depth = 6042 
+                 layer = 40 
+                 columns = 1 
+                 verticaljust = top 
+                 drawshade = "true" 
+                 shadecolor = "Black" 
+                 filltint = 100.000000 
+                 /> 
+        <textdata   >
+  </frame>
+
+    </frames>
+    <content>
+    
+    </content> 
+  </flow> 
+  <flow  
+       name = "" 
+       masterflow = "false" 
+       resizable = "false" 
+       id = "0" 
+       > 
+    <frames>
+      <frame type = "Rectangle"> 
+        <framepos type = "Normal" 
+                 pagenumber = 5 
+                 x = 1304 
+                 y = 26 
+                 width = 75109 
+                 depth = 191 
+                 layer = 47 
+                 columns = 1 
+                 verticaljust = top 
+                 drawshade = "true" 
+                 shadecolor = "Black" 
+                 filltint = 100.000000 
+                 /> 
+        <RectangleData fill = "true" 
+                      close = "true" > 
+  </frame>
+
+    </frames>
+    <content>
+    </content> 
+  </flow> 
+  <flow  
+       name = "" 
+       masterflow = "false" 
+       resizable = "false" 
+       id = "0" 
+       > 
+    <frames>
+      <frame type = "Text"> 
+        <framepos type = "Normal" 
+                 pagenumber = 5 
+                 x = 1304 
+                 y = 26 
+                 width = 75109 
+                 depth = 191 
+                 layer = 50 
+                 columns = 1 
+                 verticaljust = top 
+                 drawshade = "true" 
+                 shadecolor = "Black" 
+                 filltint = 100.000000 
+                 /> 
+        <textdata   >
+  </frame>
+
+    </frames>
+    <content>
+    
+    </content> 
+  </flow> 
+  <flow  
+       name = "" 
+       masterflow = "false" 
+       resizable = "false" 
+       id = "0" 
+       > 
+    <frames>
+      <frame type = "Text"> 
+        <framepos type = "Normal" 
+                 pagenumber = 5 
+                 x = 2956 
+                 y = 409 
+                 width = 24776 
+                 depth = 348 
+                 layer = 1680 
+                 columns = 1 
+                 verticaljust = center 
+                 /> 
+        <textdata   >
+  </frame>
+
+    </frames>
+    <content>
+    <para style="(no style)" quad="L" findent="0" lindent="0" rindent="0" leadbefore="0" leadafter="0" widows="2" kerning="true" hyphenate="true" skipifempty="false" skipifemptyvar="false" noparabreakoncopyfit="false"><tracking newsize="0.000000"><f name="Arial"><z newsize="12.0"><color name="Black"><b><variable name="Elec_date1"></para><para style="(no style)" quad="L" findent="0" lindent="0" rindent="0" leadbefore="0" leadafter="0" widows="2" kerning="true" hyphenate="true" skipifempty="false" skipifemptyvar="false" noparabreakoncopyfit="false"><tracking newsize="0.000000"><f name="Arial"><z newsize="12.0"><color name="Black"><b><variable name="Elec_Name1"></para>
+    </content> 
+  </flow> 
+  <flow  
+       name = "HEADER iNFO" 
+       masterflow = "false" 
+       resizable = "false" 
+       id = "0" 
+       > 
+    <frames>
+      <frame type = "Text"> 
+        <framepos type = "Normal" 
+                 pagenumber = 6 
+                 x = 0 
+                 y = 98 
+                 width = 79021 
+                 depth = 586 
+                 layer = 310 
+                 columns = 1 
+                 verticaljust = top 
+                 /> 
+        <textdata   >
+  </frame>
+
+    </frames>
+    <content>
+    <para style="(no style)" quad="C" findent="0" lindent="0" rindent="0" leadbefore="0" leadafter="0" widows="2" kerning="true" hyphenate="true" skipifempty="false" skipifemptyvar="false" noparabreakoncopyfit="false"><tracking newsize="0.000000"><f name="Arial"><z newsize="16.0"><color name="Black">MERCER COUNTY SUPERINTENDENT OF ELECTIONS<z newsize="12.0"></para><para style="(no style)" quad="C" findent="0" lindent="0" rindent="0" leadbefore="0" leadafter="0" widows="2" kerning="true" hyphenate="true" skipifempty="false" skipifemptyvar="false" noparabreakoncopyfit="false"><tracking newsize="0.000000"><f name="Arial"><z newsize="12.0"><color name="Black">Catherine DiCostanzo, Superintendent</para><para style="(no style)" quad="C" findent="0" lindent="0" rindent="0" leadbefore="0" leadafter="0" widows="2" kerning="true" hyphenate="true" skipifempty="false" skipifemptyvar="false" noparabreakoncopyfit="false"><tracking newsize="0.000000"><f name="Arial"><z newsize="12.0"><color name="Black">Poll Boook For</para><para style="(no style)" quad="C" findent="0" lindent="0" rindent="0" leadbefore="0" leadafter="0" widows="2" kerning="true" hyphenate="true" skipifempty="false" skipifemptyvar="false" noparabreakoncopyfit="false"><tracking newsize="0.000000"><f name="Arial"><z newsize="12.0"><color name="Black"><variable name="MUNICIPALI1">&#32;<variable name="Poll_Cover2"></para>
+    </content> 
+  </flow> 
+  <flow  
+       name = "Pages" 
+       masterflow = "false" 
+       resizable = "false" 
+       id = "0" 
+       > 
+    <frames>
+      <frame type = "Text"> 
+        <framepos type = "Normal" 
+                 pagenumber = 6 
+                 x = 65216 
+                 y = 146 
+                 width = 13266 
+                 depth = 273 
+                 layer = 700 
+                 columns = 1 
+                 verticaljust = center 
+                 /> 
+        <textdata   >
+  </frame>
+
+    </frames>
+    <content>
+    <para style="(no style)" quad="L" findent="0" lindent="0" rindent="0" leadbefore="0" leadafter="0" widows="2" kerning="true" hyphenate="true" skipifempty="false" skipifemptyvar="false" noparabreakoncopyfit="false"><tracking newsize="0.000000"><f name="Helvetica"><z newsize="14.0"><color name="Black">Page: &#19;<variable name="PG_OF5">&#32;of <variable name="PG_COUNT5"></para>
+    </content> 
+  </flow> 
+  <flow  
+       name = "" 
+       masterflow = "false" 
+       resizable = "false" 
+       id = "0" 
+       > 
+    <frames>
+      <frame type = "Text"> 
+        <framepos type = "Normal" 
+                 pagenumber = 6 
+                 x = 65304 
+                 y = 426 
+                 width = 12829 
+                 depth = 183 
+                 layer = 940 
+                 columns = 1 
+                 verticaljust = center 
+                 /> 
+        <textdata   >
+  </frame>
+
+    </frames>
+    <content>
+    <para style="(no style)" quad="C" findent="0" lindent="0" rindent="0" leadbefore="0" leadafter="0" widows="2" kerning="true" hyphenate="true" skipifempty="false" skipifemptyvar="false" noparabreakoncopyfit="false"><tracking newsize="0.000000"><f name="Arial"><z newsize="12.0"><color name="Black"><b><variable name="ABB_F5">-<variable name="ABB_L5"></para>
+    </content> 
+  </flow> 
+  <flow  
+       name = "Name Pos1" 
+       masterflow = "false" 
+       resizable = "false" 
+       id = "0" 
+       > 
+    <frames>
+      <frame type = "Text"> 
+        <framepos type = "Normal" 
+                 pagenumber = 6 
+                 x = 2955 
+                 y = 875 
+                 width = 28800 
+                 depth = 302 
+                 layer = 950 
+                 columns = 1 
+                 verticaljust = bottom 
+                 /> 
+        <textdata   >
+  </frame>
+
+    </frames>
+    <content>
+    <para style="(no style)" quad="L" findent="0" lindent="0" rindent="0" leadbefore="0" leadafter="0" widows="2" kerning="true" hyphenate="true" skipifempty="false" skipifemptyvar="false" noparabreakoncopyfit="false"><tracking newsize="0.000000"><f name="Arial"><z newsize="12.0"><color name="Black"><b><variable name="FULLNAME1"></b></para><para style="(no style)" quad="L" findent="0" lindent="0" rindent="0" leadbefore="0" leadafter="0" widows="2" kerning="true" hyphenate="true" skipifempty="false" skipifemptyvar="false" noparabreakoncopyfit="false"><tracking newsize="0.000000"><f name="Arial"><z newsize="9.0"><color name="Black"><variable name="AD1">, <variable name="CITY ,NJ ZIP1"></para>
+    </content> 
+  </flow> 
+  <flow  
+       name = "Name Pos2" 
+       masterflow = "false" 
+       resizable = "false" 
+       id = "0" 
+       > 
+    <frames>
+      <frame type = "Text"> 
+        <framepos type = "Normal" 
+                 pagenumber = 6 
+                 x = 2867 
+                 y = 1907 
+                 width = 28800 
+                 depth = 302 
+                 layer = 960 
+                 columns = 1 
+                 verticaljust = bottom 
+                 /> 
+        <textdata   >
+  </frame>
+
+    </frames>
+    <content>
+    <para style="(no style)" quad="L" findent="0" lindent="0" rindent="0" leadbefore="0" leadafter="0" widows="2" kerning="true" hyphenate="true" skipifempty="false" skipifemptyvar="false" noparabreakoncopyfit="false"><tracking newsize="0.000000"><f name="Arial"><z newsize="12.0"><color name="Black"><b><variable name="FULLNAME2"></b></para><para style="(no style)" quad="L" findent="0" lindent="0" rindent="0" leadbefore="0" leadafter="0" widows="2" kerning="true" hyphenate="true" skipifempty="false" skipifemptyvar="false" noparabreakoncopyfit="false"><tracking newsize="0.000000"><f name="Arial"><z newsize="9.0"><color name="Black"><variable name="AD2">, <variable name="CITY ,NJ ZIP2"></para>
+    </content> 
+  </flow> 
+  <flow  
+       name = "Name Pos3" 
+       masterflow = "false" 
+       resizable = "false" 
+       id = "0" 
+       > 
+    <frames>
+      <frame type = "Text"> 
+        <framepos type = "Normal" 
+                 pagenumber = 6 
+                 x = 2933 
+                 y = 2940 
+                 width = 28800 
+                 depth = 302 
+                 layer = 970 
+                 columns = 1 
+                 verticaljust = bottom 
+                 /> 
+        <textdata   >
+  </frame>
+
+    </frames>
+    <content>
+    <para style="(no style)" quad="L" findent="0" lindent="0" rindent="0" leadbefore="0" leadafter="0" widows="2" kerning="true" hyphenate="true" skipifempty="false" skipifemptyvar="false" noparabreakoncopyfit="false"><tracking newsize="0.000000"><f name="Arial"><z newsize="12.0"><color name="Black"><b><variable name="FULLNAME3"></b></para><para style="(no style)" quad="L" findent="0" lindent="0" rindent="0" leadbefore="0" leadafter="0" widows="2" kerning="true" hyphenate="true" skipifempty="false" skipifemptyvar="false" noparabreakoncopyfit="false"><tracking newsize="0.000000"><f name="Arial"><z newsize="9.0"><color name="Black"><variable name="AD3">, <variable name="CITY ,NJ ZIP3"></para>
+    </content> 
+  </flow> 
+  <flow  
+       name = "Name Pos4" 
+       masterflow = "false" 
+       resizable = "false" 
+       id = "0" 
+       > 
+    <frames>
+      <frame type = "Text"> 
+        <framepos type = "Normal" 
+                 pagenumber = 6 
+                 x = 2945 
+                 y = 3974 
+                 width = 28800 
+                 depth = 302 
+                 layer = 980 
+                 columns = 1 
+                 verticaljust = bottom 
+                 /> 
+        <textdata   >
+  </frame>
+
+    </frames>
+    <content>
+    <para style="(no style)" quad="L" findent="0" lindent="0" rindent="0" leadbefore="0" leadafter="0" widows="2" kerning="true" hyphenate="true" skipifempty="false" skipifemptyvar="false" noparabreakoncopyfit="false"><tracking newsize="0.000000"><f name="Arial"><z newsize="11.0"><color name="Black"><b><variable name="FULLNAME4"></b><z newsize="12.0"><b></para><para style="(no style)" quad="L" findent="0" lindent="0" rindent="0" leadbefore="0" leadafter="0" widows="2" kerning="true" hyphenate="true" skipifempty="false" skipifemptyvar="false" noparabreakoncopyfit="false"><tracking newsize="0.000000"><f name="Arial"><z newsize="9.0"><color name="Black"><variable name="AD4">, <variable name="CITY ,NJ ZIP4"></para>
+    </content> 
+  </flow> 
+  <flow  
+       name = "Name Pos5" 
+       masterflow = "false" 
+       resizable = "false" 
+       id = "0" 
+       > 
+    <frames>
+      <frame type = "Text"> 
+        <framepos type = "Normal" 
+                 pagenumber = 6 
+                 x = 2945 
+                 y = 5008 
+                 width = 28800 
+                 depth = 302 
+                 layer = 990 
+                 columns = 1 
+                 verticaljust = bottom 
+                 /> 
+        <textdata   >
+  </frame>
+
+    </frames>
+    <content>
+    <para style="(no style)" quad="L" findent="0" lindent="0" rindent="0" leadbefore="0" leadafter="0" widows="2" kerning="true" hyphenate="true" skipifempty="false" skipifemptyvar="false" noparabreakoncopyfit="false"><tracking newsize="0.000000"><f name="Arial"><z newsize="11.0"><color name="Black"><b><variable name="FULLNAME5"></b><z newsize="12.0"><b></para><para style="(no style)" quad="L" findent="0" lindent="0" rindent="0" leadbefore="0" leadafter="0" widows="2" kerning="true" hyphenate="true" skipifempty="false" skipifemptyvar="false" noparabreakoncopyfit="false"><tracking newsize="0.000000"><f name="Arial"><z newsize="9.0"><color name="Black"><variable name="AD5">, <variable name="CITY ,NJ ZIP5"></para>
+    </content> 
+  </flow> 
+  <flow  
+       name = "Picture1" 
+       masterflow = "false" 
+       resizable = "false" 
+       id = "0" 
+       > 
+    <frames>
+      <frame type = "VImage"> 
+        <framepos                  pagenumber = 6 
+                 x = 3216 
+                 y = 1191 
+                 width = 25560 
+                 depth = 576 
+                 layer = 1000 
+                 columns = 1 
+                 verticaljust = top 
+                 /> 
+      <vimagedata name = "Signature1" > 
+      < imagedata 
+                alignh = "Left" 
+                alignv = "Top" 
+                scale = "Best Fit" 
+                clip = true 
+      />
+  </frame>
+
+    </frames>
+    <content>
+    </content> 
+  </flow> 
+  <flow  
+       name = "Picture2" 
+       masterflow = "false" 
+       resizable = "false" 
+       id = "0" 
+       > 
+    <frames>
+      <frame type = "VImage"> 
+        <framepos                  pagenumber = 6 
+                 x = 3116 
+                 y = 2229 
+                 width = 25560 
+                 depth = 576 
+                 layer = 1010 
+                 columns = 1 
+                 verticaljust = top 
+                 /> 
+      <vimagedata name = "Signature2" > 
+      < imagedata 
+                alignh = "Left" 
+                alignv = "Top" 
+                scale = "Best Fit" 
+                clip = true 
+      />
+  </frame>
+
+    </frames>
+    <content>
+    </content> 
+  </flow> 
+  <flow  
+       name = "Picture3" 
+       masterflow = "false" 
+       resizable = "false" 
+       id = "0" 
+       > 
+    <frames>
+      <frame type = "VImage"> 
+        <framepos                  pagenumber = 6 
+                 x = 3116 
+                 y = 3268 
+                 width = 25560 
+                 depth = 576 
+                 layer = 1020 
+                 columns = 1 
+                 verticaljust = top 
+                 /> 
+      <vimagedata name = "Signature3" > 
+      < imagedata 
+                alignh = "Left" 
+                alignv = "Top" 
+                scale = "Best Fit" 
+                clip = true 
+      />
+  </frame>
+
+    </frames>
+    <content>
+    </content> 
+  </flow> 
+  <flow  
+       name = "Picture4" 
+       masterflow = "false" 
+       resizable = "false" 
+       id = "0" 
+       > 
+    <frames>
+      <frame type = "VImage"> 
+        <framepos                  pagenumber = 6 
+                 x = 3203 
+                 y = 4302 
+                 width = 25560 
+                 depth = 576 
+                 layer = 1030 
+                 columns = 1 
+                 verticaljust = top 
+                 /> 
+      <vimagedata name = "Signature4" > 
+      < imagedata 
+                alignh = "Left" 
+                alignv = "Top" 
+                scale = "Best Fit" 
+                clip = true 
+      />
+  </frame>
+
+    </frames>
+    <content>
+    </content> 
+  </flow> 
+  <flow  
+       name = "Picture5" 
+       masterflow = "false" 
+       resizable = "false" 
+       id = "0" 
+       > 
+    <frames>
+      <frame type = "VImage"> 
+        <framepos                  pagenumber = 6 
+                 x = 3160 
+                 y = 5345 
+                 width = 25560 
+                 depth = 576 
+                 layer = 1040 
+                 columns = 1 
+                 verticaljust = top 
+                 /> 
+      <vimagedata name = "Signature5" > 
+      < imagedata 
+                alignh = "Left" 
+                alignv = "Top" 
+                scale = "Best Fit" 
+                clip = true 
+      />
+  </frame>
+
+    </frames>
+    <content>
+    </content> 
+  </flow> 
+  <flow  
+       name = "" 
+       masterflow = "false" 
+       resizable = "false" 
+       id = "0" 
+       > 
+    <frames>
+      <frame type = "Rectangle"> 
+        <framepos type = "Normal" 
+                 pagenumber = 6 
+                 x = 33388 
+                 y = 933 
+                 width = 10080 
+                 depth = 216 
+                 layer = 1047 
+                 columns = 1 
+                 verticaljust = top 
+                 drawshade = "true" 
+                 shadecolor = "White" 
+                 filltint = 100.000000 
+                 /> 
+        <RectangleData fill = "true" 
+                      close = "true" > 
+  </frame>
+
+    </frames>
+    <content>
+    </content> 
+  </flow> 
+  <flow  
+       name = "BC1" 
+       masterflow = "false" 
+       resizable = "false" 
+       id = "0" 
+       > 
+    <frames>
+      <frame type = "Text"> 
+        <framepos type = "Normal" 
+                 pagenumber = 6 
+                 x = 33388 
+                 y = 933 
+                 width = 10080 
+                 depth = 216 
+                 layer = 1050 
+                 columns = 1 
+                 verticaljust = bottom 
+                 drawshade = "true" 
+                 shadecolor = "White" 
+                 filltint = 100.000000 
+                 /> 
+        <textdata   >
+  </frame>
+
+    </frames>
+    <content>
+    <para style="(no style)" quad="L" findent="0" lindent="0" rindent="0" leadbefore="0" leadafter="0" widows="2" kerning="true" hyphenate="true" skipifempty="false" skipifemptyvar="false" noparabreakoncopyfit="false"><tracking newsize="0.000000"><f name="Helvetica"><z newsize="10.0"><color name="Black"><variable name="3 of 9 Barcode Rule 1"></para>
+    </content> 
+  </flow> 
+  <flow  
+       name = "voterid Pos1" 
+       masterflow = "false" 
+       resizable = "false" 
+       id = "0" 
+       > 
+    <frames>
+      <frame type = "Text"> 
+        <framepos type = "Normal" 
+                 pagenumber = 6 
+                 x = 43614 
+                 y = 933 
+                 width = 10800 
+                 depth = 216 
+                 layer = 1060 
+                 columns = 1 
+                 verticaljust = bottom 
+                 /> 
+        <textdata   >
+  </frame>
+
+    </frames>
+    <content>
+    <para style="(no style)" quad="L" findent="0" lindent="0" rindent="0" leadbefore="0" leadafter="0" widows="2" kerning="true" hyphenate="true" skipifempty="false" skipifemptyvar="false" noparabreakoncopyfit="false"><tracking newsize="0.000000"><f name="Arial"><z newsize="11.0"><color name="Black">Voter # &#19;<variable name="VOTERID1"></para>
+    </content> 
+  </flow> 
+  <flow  
+       name = "" 
+       masterflow = "false" 
+       resizable = "false" 
+       id = "0" 
+       > 
+    <frames>
+      <frame type = "Rectangle"> 
+        <framepos type = "Normal" 
+                 pagenumber = 6 
+                 x = 32856 
+                 y = 1191 
+                 width = 25200 
+                 depth = 158 
+                 layer = 1067 
+                 columns = 1 
+                 verticaljust = top 
+                 drawshade = "true" 
+                 shadecolor = "White" 
+                 filltint = 100.000000 
+                 /> 
+        <RectangleData fill = "true" 
+                      close = "true" > 
+  </frame>
+
+    </frames>
+    <content>
+    </content> 
+  </flow> 
+  <flow  
+       name = "affirm_id1" 
+       masterflow = "false" 
+       resizable = "false" 
+       id = "0" 
+       > 
+    <frames>
+      <frame type = "Text"> 
+        <framepos type = "Normal" 
+                 pagenumber = 6 
+                 x = 32856 
+                 y = 1191 
+                 width = 25200 
+                 depth = 158 
+                 layer = 1070 
+                 columns = 1 
+                 verticaljust = top 
+                 drawshade = "true" 
+                 shadecolor = "White" 
+                 filltint = 100.000000 
+                 /> 
+        <textdata   >
+  </frame>
+
+    </frames>
+    <content>
+    <para style="(no style)" quad="C" findent="0" lindent="0" rindent="0" leadbefore="0" leadafter="0" widows="2" kerning="true" hyphenate="true" skipifempty="false" skipifemptyvar="false" noparabreakoncopyfit="false"><tracking newsize="0.000000"><f name="Helvetica"><z newsize="12.0"><color name="Red"><b><variable name="AFFIRM-ID1"></para>
+    </content> 
+  </flow> 
+  <flow  
+       name = "ABSENTEE1" 
+       masterflow = "false" 
+       resizable = "false" 
+       id = "0" 
+       > 
+    <frames>
+      <frame type = "Text"> 
+        <framepos type = "Normal" 
+                 pagenumber = 6 
+                 x = 34976 
+                 y = 1222 
+                 width = 21847 
+                 depth = 563 
+                 layer = 1080 
+                 columns = 1 
+                 verticaljust = center 
+                 /> 
+        <textdata   >
+  </frame>
+
+    </frames>
+    <content>
+    <para style="(no style)" quad="L" findent="0" lindent="0" rindent="0" leadbefore="0" leadafter="0" widows="2" kerning="true" hyphenate="true" skipifempty="false" skipifemptyvar="false" noparabreakoncopyfit="false"><tracking newsize="0.000000"><f name="Helvetica"><z newsize="28.0"><color name="Red"><b><variable name="ABSENTEE1"></para>
+    </content> 
+  </flow> 
+  <flow  
+       name = "chk1" 
+       masterflow = "false" 
+       resizable = "false" 
+       id = "0" 
+       > 
+    <frames>
+      <frame type = "Text"> 
+        <framepos type = "Normal" 
+                 pagenumber = 6 
+                 x = 42944 
+                 y = 1669 
+                 width = 15300 
+                 depth = 122 
+                 layer = 1090 
+                 columns = 1 
+                 verticaljust = center 
+                 /> 
+        <textdata   >
+  </frame>
+
+    </frames>
+    <content>
+    <para style="(no style)" quad="R" findent="0" lindent="0" rindent="0" leadbefore="0" leadafter="0" widows="2" kerning="true" hyphenate="true" skipifempty="false" skipifemptyvar="false" noparabreakoncopyfit="false"><tracking newsize="0.000000"><f name="Arial"><z newsize="8.0"><color name="Black"><b><variable name="_showdat1"></para>
+    </content> 
+  </flow> 
+  <flow  
+       name = "DOB Pos1" 
+       masterflow = "false" 
+       resizable = "false" 
+       id = "0" 
+       > 
+    <frames>
+      <frame type = "Text"> 
+        <framepos type = "Normal" 
+                 pagenumber = 6 
+                 x = 60411 
+                 y = 1009 
+                 width = 10652 
+                 depth = 144 
+                 layer = 1100 
+                 columns = 1 
+                 verticaljust = bottom 
+                 /> 
+        <textdata   >
+  </frame>
+
+    </frames>
+    <content>
+    <para style="(no style)" quad="L" findent="0" lindent="0" rindent="0" leadbefore="0" leadafter="0" widows="2" kerning="true" hyphenate="true" skipifempty="false" skipifemptyvar="false" noparabreakoncopyfit="false"><tracking newsize="0.000000"><f name="Arial"><z newsize="10.0"><color name="Black">DOB &#19;<variable name="DATE_BIRTH1"></para>
+    </content> 
+  </flow> 
+  <flow  
+       name = "Auth No" 
+       masterflow = "false" 
+       resizable = "false" 
+       id = "0" 
+       > 
+    <frames>
+      <frame type = "Text"> 
+        <framepos type = "Normal" 
+                 pagenumber = 6 
+                 x = 60301 
+                 y = 1179 
+                 width = 18256 
+                 depth = 710 
+                 layer = 1110 
+                 columns = 1 
+                 verticaljust = top 
+                 /> 
+        <textdata   >
+  </frame>
+
+    </frames>
+    <content>
+    <para style="(no style)" quad="L" findent="0" lindent="0" rindent="0" leadbefore="0" leadafter="0" widows="2" kerning="true" hyphenate="true" skipifempty="false" skipifemptyvar="false" noparabreakoncopyfit="false"><tracking newsize="0.000000"><f name="Helvetica"><z newsize="10.0"><color name="Black">Auth No: ____________________</para><para style="(no style)" quad="L" findent="0" lindent="0" rindent="0" leadbefore="0" leadafter="0" widows="2" kerning="true" hyphenate="true" skipifempty="false" skipifemptyvar="false" noparabreakoncopyfit="false"><tracking newsize="0.000000"><f name="Helvetica"><z newsize="10.0"><color name="Black">Sig Comp By:________________</para><para style="(no style)" quad="L" findent="0" lindent="0" rindent="0" leadbefore="0" leadafter="0" widows="2" kerning="true" hyphenate="true" skipifempty="false" skipifemptyvar="false" noparabreakoncopyfit="false"><tracking newsize="0.000000"><f name="Helvetica"><z newsize="9.0"><color name="Black"></para><para style="(no style)" quad="L" findent="0" lindent="0" rindent="0" leadbefore="0" leadafter="0" widows="2" kerning="true" hyphenate="true" skipifempty="false" skipifemptyvar="false" noparabreakoncopyfit="false"><tracking newsize="0.000000"><f name="Helvetica"><z newsize="9.0"><color name="Black"></para><para style="(no style)" quad="L" findent="0" lindent="0" rindent="0" leadbefore="0" leadafter="0" widows="2" kerning="true" hyphenate="true" skipifempty="false" skipifemptyvar="false" noparabreakoncopyfit="false"><tracking newsize="0.000000"><f name="Helvetica"><z newsize="9.0"><color name="Black">Challenge &#19;Yes: _____ &#19;No:_____</para><para style="(no style)" quad="L" findent="0" lindent="0" rindent="0" leadbefore="0" leadafter="0" widows="2" kerning="true" hyphenate="true" skipifempty="false" skipifemptyvar="false" noparabreakoncopyfit="false"><tracking newsize="0.000000"><f name="Helvetica"><z newsize="9.0"><color name="Black">Challenge Result:_____________</para>
+    </content> 
+  </flow> 
+  <flow  
+       name = "" 
+       masterflow = "false" 
+       resizable = "false" 
+       id = "0" 
+       > 
+    <frames>
+      <frame type = "Rectangle"> 
+        <framepos type = "Normal" 
+                 pagenumber = 6 
+                 x = 33344 
+                 y = 1982 
+                 width = 10080 
+                 depth = 216 
+                 layer = 1127 
+                 columns = 1 
+                 verticaljust = top 
+                 drawshade = "true" 
+                 shadecolor = "White" 
+                 filltint = 100.000000 
+                 /> 
+        <RectangleData fill = "true" 
+                      close = "true" > 
+  </frame>
+
+    </frames>
+    <content>
+    </content> 
+  </flow> 
+  <flow  
+       name = "BC2" 
+       masterflow = "false" 
+       resizable = "false" 
+       id = "0" 
+       > 
+    <frames>
+      <frame type = "Text"> 
+        <framepos type = "Normal" 
+                 pagenumber = 6 
+                 x = 33344 
+                 y = 1982 
+                 width = 10080 
+                 depth = 216 
+                 layer = 1130 
+                 columns = 1 
+                 verticaljust = bottom 
+                 drawshade = "true" 
+                 shadecolor = "White" 
+                 filltint = 100.000000 
+                 /> 
+        <textdata   >
+  </frame>
+
+    </frames>
+    <content>
+    <para style="(no style)" quad="L" findent="0" lindent="0" rindent="0" leadbefore="0" leadafter="0" widows="2" kerning="true" hyphenate="true" skipifempty="false" skipifemptyvar="false" noparabreakoncopyfit="false"><tracking newsize="0.000000"><f name="Helvetica"><z newsize="10.0"><color name="Black"><variable name="3 of 9 Barcode Rule 2"></para>
+    </content> 
+  </flow> 
+  <flow  
+       name = "" 
+       masterflow = "false" 
+       resizable = "false" 
+       id = "0" 
+       > 
+    <frames>
+      <frame type = "Rectangle"> 
+        <framepos type = "Normal" 
+                 pagenumber = 6 
+                 x = 33344 
+                 y = 3014 
+                 width = 10080 
+                 depth = 216 
+                 layer = 1137 
+                 columns = 1 
+                 verticaljust = top 
+                 drawshade = "true" 
+                 shadecolor = "White" 
+                 filltint = 100.000000 
+                 /> 
+        <RectangleData fill = "true" 
+                      close = "true" > 
+  </frame>
+
+    </frames>
+    <content>
+    </content> 
+  </flow> 
+  <flow  
+       name = "BC3" 
+       masterflow = "false" 
+       resizable = "false" 
+       id = "0" 
+       > 
+    <frames>
+      <frame type = "Text"> 
+        <framepos type = "Normal" 
+                 pagenumber = 6 
+                 x = 33344 
+                 y = 3014 
+                 width = 10080 
+                 depth = 216 
+                 layer = 1140 
+                 columns = 1 
+                 verticaljust = bottom 
+                 drawshade = "true" 
+                 shadecolor = "White" 
+                 filltint = 100.000000 
+                 /> 
+        <textdata   >
+  </frame>
+
+    </frames>
+    <content>
+    <para style="(no style)" quad="L" findent="0" lindent="0" rindent="0" leadbefore="0" leadafter="0" widows="2" kerning="true" hyphenate="true" skipifempty="false" skipifemptyvar="false" noparabreakoncopyfit="false"><tracking newsize="0.000000"><f name="Helvetica"><z newsize="10.0"><color name="Black"><variable name="3 of 9 Barcode Rule 3"></para>
+    </content> 
+  </flow> 
+  <flow  
+       name = "" 
+       masterflow = "false" 
+       resizable = "false" 
+       id = "0" 
+       > 
+    <frames>
+      <frame type = "Rectangle"> 
+        <framepos type = "Normal" 
+                 pagenumber = 6 
+                 x = 33344 
+                 y = 4046 
+                 width = 10080 
+                 depth = 216 
+                 layer = 1147 
+                 columns = 1 
+                 verticaljust = top 
+                 drawshade = "true" 
+                 shadecolor = "White" 
+                 filltint = 100.000000 
+                 /> 
+        <RectangleData fill = "true" 
+                      close = "true" > 
+  </frame>
+
+    </frames>
+    <content>
+    </content> 
+  </flow> 
+  <flow  
+       name = "BC4" 
+       masterflow = "false" 
+       resizable = "false" 
+       id = "0" 
+       > 
+    <frames>
+      <frame type = "Text"> 
+        <framepos type = "Normal" 
+                 pagenumber = 6 
+                 x = 33344 
+                 y = 4046 
+                 width = 10080 
+                 depth = 216 
+                 layer = 1150 
+                 columns = 1 
+                 verticaljust = bottom 
+                 drawshade = "true" 
+                 shadecolor = "White" 
+                 filltint = 100.000000 
+                 /> 
+        <textdata   >
+  </frame>
+
+    </frames>
+    <content>
+    <para style="(no style)" quad="L" findent="0" lindent="0" rindent="0" leadbefore="0" leadafter="0" widows="2" kerning="true" hyphenate="true" skipifempty="false" skipifemptyvar="false" noparabreakoncopyfit="false"><tracking newsize="0.000000"><f name="Helvetica"><z newsize="10.0"><color name="Black"><variable name="3 of 9 Barcode Rule 4"></para>
+    </content> 
+  </flow> 
+  <flow  
+       name = "" 
+       masterflow = "false" 
+       resizable = "false" 
+       id = "0" 
+       > 
+    <frames>
+      <frame type = "Rectangle"> 
+        <framepos type = "Normal" 
+                 pagenumber = 6 
+                 x = 33344 
+                 y = 5087 
+                 width = 10080 
+                 depth = 216 
+                 layer = 1157 
+                 columns = 1 
+                 verticaljust = top 
+                 drawshade = "true" 
+                 shadecolor = "White" 
+                 filltint = 100.000000 
+                 /> 
+        <RectangleData fill = "true" 
+                      close = "true" > 
+  </frame>
+
+    </frames>
+    <content>
+    </content> 
+  </flow> 
+  <flow  
+       name = "BC5" 
+       masterflow = "false" 
+       resizable = "false" 
+       id = "0" 
+       > 
+    <frames>
+      <frame type = "Text"> 
+        <framepos type = "Normal" 
+                 pagenumber = 6 
+                 x = 33344 
+                 y = 5087 
+                 width = 10080 
+                 depth = 216 
+                 layer = 1160 
+                 columns = 1 
+                 verticaljust = bottom 
+                 drawshade = "true" 
+                 shadecolor = "White" 
+                 filltint = 100.000000 
+                 /> 
+        <textdata   >
+  </frame>
+
+    </frames>
+    <content>
+    <para style="(no style)" quad="L" findent="0" lindent="0" rindent="0" leadbefore="0" leadafter="0" widows="2" kerning="true" hyphenate="true" skipifempty="false" skipifemptyvar="false" noparabreakoncopyfit="false"><tracking newsize="0.000000"><f name="Helvetica"><z newsize="10.0"><color name="Black"><variable name="3 of 9 Barcode Rule 5"></para>
+    </content> 
+  </flow> 
+  <flow  
+       name = "voterid Pos2" 
+       masterflow = "false" 
+       resizable = "false" 
+       id = "0" 
+       > 
+    <frames>
+      <frame type = "Text"> 
+        <framepos type = "Normal" 
+                 pagenumber = 6 
+                 x = 43525 
+                 y = 1982 
+                 width = 10800 
+                 depth = 216 
+                 layer = 1170 
+                 columns = 1 
+                 verticaljust = bottom 
+                 /> 
+        <textdata   >
+  </frame>
+
+    </frames>
+    <content>
+    <para style="(no style)" quad="L" findent="0" lindent="0" rindent="0" leadbefore="0" leadafter="0" widows="2" kerning="true" hyphenate="true" skipifempty="false" skipifemptyvar="false" noparabreakoncopyfit="false"><tracking newsize="0.000000"><f name="Arial"><z newsize="11.0"><color name="Black">Voter # &#19;<variable name="VOTERID2"></para>
+    </content> 
+  </flow> 
+  <flow  
+       name = "voterid Pos3" 
+       masterflow = "false" 
+       resizable = "false" 
+       id = "0" 
+       > 
+    <frames>
+      <frame type = "Text"> 
+        <framepos type = "Normal" 
+                 pagenumber = 6 
+                 x = 43480 
+                 y = 3014 
+                 width = 10800 
+                 depth = 216 
+                 layer = 1180 
+                 columns = 1 
+                 verticaljust = bottom 
+                 /> 
+        <textdata   >
+  </frame>
+
+    </frames>
+    <content>
+    <para style="(no style)" quad="L" findent="0" lindent="0" rindent="0" leadbefore="0" leadafter="0" widows="2" kerning="true" hyphenate="true" skipifempty="false" skipifemptyvar="false" noparabreakoncopyfit="false"><tracking newsize="0.000000"><f name="Arial"><z newsize="11.0"><color name="Black">Voter # &#19;<variable name="VOTERID3"></para>
+    </content> 
+  </flow> 
+  <flow  
+       name = "voterid Pos4" 
+       masterflow = "false" 
+       resizable = "false" 
+       id = "0" 
+       > 
+    <frames>
+      <frame type = "Text"> 
+        <framepos type = "Normal" 
+                 pagenumber = 6 
+                 x = 43480 
+                 y = 4042 
+                 width = 10800 
+                 depth = 216 
+                 layer = 1190 
+                 columns = 1 
+                 verticaljust = bottom 
+                 /> 
+        <textdata   >
+  </frame>
+
+    </frames>
+    <content>
+    <para style="(no style)" quad="L" findent="0" lindent="0" rindent="0" leadbefore="0" leadafter="0" widows="2" kerning="true" hyphenate="true" skipifempty="false" skipifemptyvar="false" noparabreakoncopyfit="false"><tracking newsize="0.000000"><f name="Arial"><z newsize="11.0"><color name="Black">Voter # &#19;<variable name="VOTERID4"></para>
+    </content> 
+  </flow> 
+  <flow  
+       name = "voterid Pos5" 
+       masterflow = "false" 
+       resizable = "false" 
+       id = "0" 
+       > 
+    <frames>
+      <frame type = "Text"> 
+        <framepos type = "Normal" 
+                 pagenumber = 6 
+                 x = 43525 
+                 y = 5087 
+                 width = 10800 
+                 depth = 216 
+                 layer = 1200 
+                 columns = 1 
+                 verticaljust = bottom 
+                 /> 
+        <textdata   >
+  </frame>
+
+    </frames>
+    <content>
+    <para style="(no style)" quad="L" findent="0" lindent="0" rindent="0" leadbefore="0" leadafter="0" widows="2" kerning="true" hyphenate="true" skipifempty="false" skipifemptyvar="false" noparabreakoncopyfit="false"><tracking newsize="0.000000"><f name="Arial"><z newsize="11.0"><color name="Black">Voter # &#19;<variable name="VOTERID5"></para>
+    </content> 
+  </flow> 
+  <flow  
+       name = "" 
+       masterflow = "false" 
+       resizable = "false" 
+       id = "0" 
+       > 
+    <frames>
+      <frame type = "Rectangle"> 
+        <framepos type = "Normal" 
+                 pagenumber = 6 
+                 x = 32844 
+                 y = 2223 
+                 width = 25200 
+                 depth = 158 
+                 layer = 1207 
+                 columns = 1 
+                 verticaljust = top 
+                 drawshade = "true" 
+                 shadecolor = "White" 
+                 filltint = 100.000000 
+                 /> 
+        <RectangleData fill = "true" 
+                      close = "true" > 
+  </frame>
+
+    </frames>
+    <content>
+    </content> 
+  </flow> 
+  <flow  
+       name = "affirm_id2" 
+       masterflow = "false" 
+       resizable = "false" 
+       id = "0" 
+       > 
+    <frames>
+      <frame type = "Text"> 
+        <framepos type = "Normal" 
+                 pagenumber = 6 
+                 x = 32844 
+                 y = 2223 
+                 width = 25200 
+                 depth = 158 
+                 layer = 1210 
+                 columns = 1 
+                 verticaljust = top 
+                 drawshade = "true" 
+                 shadecolor = "White" 
+                 filltint = 100.000000 
+                 /> 
+        <textdata   >
+  </frame>
+
+    </frames>
+    <content>
+    <para style="(no style)" quad="C" findent="0" lindent="0" rindent="0" leadbefore="0" leadafter="0" widows="2" kerning="true" hyphenate="true" skipifempty="false" skipifemptyvar="false" noparabreakoncopyfit="false"><tracking newsize="0.000000"><f name="Helvetica"><z newsize="12.0"><color name="Red"><b><variable name="AFFIRM-ID2"></para>
+    </content> 
+  </flow> 
+  <flow  
+       name = "" 
+       masterflow = "false" 
+       resizable = "false" 
+       id = "0" 
+       > 
+    <frames>
+      <frame type = "Rectangle"> 
+        <framepos type = "Normal" 
+                 pagenumber = 6 
+                 x = 32855 
+                 y = 3257 
+                 width = 25200 
+                 depth = 158 
+                 layer = 1217 
+                 columns = 1 
+                 verticaljust = top 
+                 drawshade = "true" 
+                 shadecolor = "White" 
+                 filltint = 100.000000 
+                 /> 
+        <RectangleData fill = "true" 
+                      close = "true" > 
+  </frame>
+
+    </frames>
+    <content>
+    </content> 
+  </flow> 
+  <flow  
+       name = "affirm_id3" 
+       masterflow = "false" 
+       resizable = "false" 
+       id = "0" 
+       > 
+    <frames>
+      <frame type = "Text"> 
+        <framepos type = "Normal" 
+                 pagenumber = 6 
+                 x = 32855 
+                 y = 3257 
+                 width = 25200 
+                 depth = 158 
+                 layer = 1220 
+                 columns = 1 
+                 verticaljust = top 
+                 drawshade = "true" 
+                 shadecolor = "White" 
+                 filltint = 100.000000 
+                 /> 
+        <textdata   >
+  </frame>
+
+    </frames>
+    <content>
+    <para style="(no style)" quad="C" findent="0" lindent="0" rindent="0" leadbefore="0" leadafter="0" widows="2" kerning="true" hyphenate="true" skipifempty="false" skipifemptyvar="false" noparabreakoncopyfit="false"><tracking newsize="0.000000"><f name="Helvetica"><z newsize="12.0"><color name="Red"><b><variable name="AFFIRM-ID3"></para>
+    </content> 
+  </flow> 
+  <flow  
+       name = "" 
+       masterflow = "false" 
+       resizable = "false" 
+       id = "0" 
+       > 
+    <frames>
+      <frame type = "Rectangle"> 
+        <framepos type = "Normal" 
+                 pagenumber = 6 
+                 x = 32844 
+                 y = 4287 
+                 width = 25200 
+                 depth = 158 
+                 layer = 1227 
+                 columns = 1 
+                 verticaljust = top 
+                 drawshade = "true" 
+                 shadecolor = "White" 
+                 filltint = 100.000000 
+                 /> 
+        <RectangleData fill = "true" 
+                      close = "true" > 
+  </frame>
+
+    </frames>
+    <content>
+    </content> 
+  </flow> 
+  <flow  
+       name = "affirm_id4" 
+       masterflow = "false" 
+       resizable = "false" 
+       id = "0" 
+       > 
+    <frames>
+      <frame type = "Text"> 
+        <framepos type = "Normal" 
+                 pagenumber = 6 
+                 x = 32844 
+                 y = 4287 
+                 width = 25200 
+                 depth = 158 
+                 layer = 1230 
+                 columns = 1 
+                 verticaljust = top 
+                 drawshade = "true" 
+                 shadecolor = "White" 
+                 filltint = 100.000000 
+                 /> 
+        <textdata   >
+  </frame>
+
+    </frames>
+    <content>
+    <para style="(no style)" quad="C" findent="0" lindent="0" rindent="0" leadbefore="0" leadafter="0" widows="2" kerning="true" hyphenate="true" skipifempty="false" skipifemptyvar="false" noparabreakoncopyfit="false"><tracking newsize="0.000000"><f name="Helvetica"><z newsize="12.0"><color name="Red"><b><variable name="AFFIRM-ID4"></para>
+    </content> 
+  </flow> 
+  <flow  
+       name = "" 
+       masterflow = "false" 
+       resizable = "false" 
+       id = "0" 
+       > 
+    <frames>
+      <frame type = "Rectangle"> 
+        <framepos type = "Normal" 
+                 pagenumber = 6 
+                 x = 32844 
+                 y = 5327 
+                 width = 25200 
+                 depth = 158 
+                 layer = 1237 
+                 columns = 1 
+                 verticaljust = top 
+                 drawshade = "true" 
+                 shadecolor = "White" 
+                 filltint = 100.000000 
+                 /> 
+        <RectangleData fill = "true" 
+                      close = "true" > 
+  </frame>
+
+    </frames>
+    <content>
+    </content> 
+  </flow> 
+  <flow  
+       name = "affirm_id5" 
+       masterflow = "false" 
+       resizable = "false" 
+       id = "0" 
+       > 
+    <frames>
+      <frame type = "Text"> 
+        <framepos type = "Normal" 
+                 pagenumber = 6 
+                 x = 32844 
+                 y = 5327 
+                 width = 25200 
+                 depth = 158 
+                 layer = 1240 
+                 columns = 1 
+                 verticaljust = top 
+                 drawshade = "true" 
+                 shadecolor = "White" 
+                 filltint = 100.000000 
+                 /> 
+        <textdata   >
+  </frame>
+
+    </frames>
+    <content>
+    <para style="(no style)" quad="C" findent="0" lindent="0" rindent="0" leadbefore="0" leadafter="0" widows="2" kerning="true" hyphenate="true" skipifempty="false" skipifemptyvar="false" noparabreakoncopyfit="false"><tracking newsize="0.000000"><f name="Helvetica"><z newsize="12.0"><color name="Red"><b><variable name="AFFIRM-ID5"></para>
+    </content> 
+  </flow> 
+  <flow  
+       name = "ABSENTEE2" 
+       masterflow = "false" 
+       resizable = "false" 
+       id = "0" 
+       > 
+    <frames>
+      <frame type = "Text"> 
+        <framepos type = "Normal" 
+                 pagenumber = 6 
+                 x = 34977 
+                 y = 2267 
+                 width = 21847 
+                 depth = 563 
+                 layer = 1250 
+                 columns = 1 
+                 verticaljust = center 
+                 /> 
+        <textdata   >
+  </frame>
+
+    </frames>
+    <content>
+    <para style="(no style)" quad="L" findent="0" lindent="0" rindent="0" leadbefore="0" leadafter="0" widows="2" kerning="true" hyphenate="true" skipifempty="false" skipifemptyvar="false" noparabreakoncopyfit="false"><tracking newsize="0.000000"><f name="Helvetica"><z newsize="28.0"><color name="Red"><b><variable name="ABSENTEE2"></para>
+    </content> 
+  </flow> 
+  <flow  
+       name = "ABSENTEE3" 
+       masterflow = "false" 
+       resizable = "false" 
+       id = "0" 
+       > 
+    <frames>
+      <frame type = "Text"> 
+        <framepos type = "Normal" 
+                 pagenumber = 6 
+                 x = 34977 
+                 y = 3294 
+                 width = 21847 
+                 depth = 563 
+                 layer = 1260 
+                 columns = 1 
+                 verticaljust = center 
+                 /> 
+        <textdata   >
+  </frame>
+
+    </frames>
+    <content>
+    <para style="(no style)" quad="L" findent="0" lindent="0" rindent="0" leadbefore="0" leadafter="0" widows="2" kerning="true" hyphenate="true" skipifempty="false" skipifemptyvar="false" noparabreakoncopyfit="false"><tracking newsize="0.000000"><f name="Helvetica"><z newsize="28.0"><color name="Red"><b><variable name="ABSENTEE3"></para>
+    </content> 
+  </flow> 
+  <flow  
+       name = "ABSENTEE4" 
+       masterflow = "false" 
+       resizable = "false" 
+       id = "0" 
+       > 
+    <frames>
+      <frame type = "Text"> 
+        <framepos type = "Normal" 
+                 pagenumber = 6 
+                 x = 35065 
+                 y = 4331 
+                 width = 21847 
+                 depth = 563 
+                 layer = 1270 
+                 columns = 1 
+                 verticaljust = center 
+                 /> 
+        <textdata   >
+  </frame>
+
+    </frames>
+    <content>
+    <para style="(no style)" quad="L" findent="0" lindent="0" rindent="0" leadbefore="0" leadafter="0" widows="2" kerning="true" hyphenate="true" skipifempty="false" skipifemptyvar="false" noparabreakoncopyfit="false"><tracking newsize="0.000000"><f name="Helvetica"><z newsize="28.0"><color name="Red"><b><variable name="ABSENTEE4"></para>
+    </content> 
+  </flow> 
+  <flow  
+       name = "ABSENTEE5" 
+       masterflow = "false" 
+       resizable = "false" 
+       id = "0" 
+       > 
+    <frames>
+      <frame type = "Text"> 
+        <framepos type = "Normal" 
+                 pagenumber = 6 
+                 x = 35021 
+                 y = 5372 
+                 width = 21847 
+                 depth = 563 
+                 layer = 1280 
+                 columns = 1 
+                 verticaljust = center 
+                 /> 
+        <textdata   >
+  </frame>
+
+    </frames>
+    <content>
+    <para style="(no style)" quad="L" findent="0" lindent="0" rindent="0" leadbefore="0" leadafter="0" widows="2" kerning="true" hyphenate="true" skipifempty="false" skipifemptyvar="false" noparabreakoncopyfit="false"><tracking newsize="0.000000"><f name="Helvetica"><z newsize="28.0"><color name="Red"><b><variable name="ABSENTEE5"></para>
+    </content> 
+  </flow> 
+  <flow  
+       name = "DOB Pos2" 
+       masterflow = "false" 
+       resizable = "false" 
+       id = "0" 
+       > 
+    <frames>
+      <frame type = "Text"> 
+        <framepos type = "Normal" 
+                 pagenumber = 6 
+                 x = 60382 
+                 y = 2041 
+                 width = 10800 
+                 depth = 144 
+                 layer = 1290 
+                 columns = 1 
+                 verticaljust = bottom 
+                 /> 
+        <textdata   >
+  </frame>
+
+    </frames>
+    <content>
+    <para style="(no style)" quad="L" findent="0" lindent="0" rindent="0" leadbefore="0" leadafter="0" widows="2" kerning="true" hyphenate="true" skipifempty="false" skipifemptyvar="false" noparabreakoncopyfit="false"><tracking newsize="0.000000"><f name="Arial"><z newsize="10.0"><color name="Black">DOB &#19;<variable name="DATE_BIRTH2"></para>
+    </content> 
+  </flow> 
+  <flow  
+       name = "DOB Pos3" 
+       masterflow = "false" 
+       resizable = "false" 
+       id = "0" 
+       > 
+    <frames>
+      <frame type = "Text"> 
+        <framepos type = "Normal" 
+                 pagenumber = 6 
+                 x = 60426 
+                 y = 3073 
+                 width = 10800 
+                 depth = 144 
+                 layer = 1300 
+                 columns = 1 
+                 verticaljust = bottom 
+                 /> 
+        <textdata   >
+  </frame>
+
+    </frames>
+    <content>
+    <para style="(no style)" quad="L" findent="0" lindent="0" rindent="0" leadbefore="0" leadafter="0" widows="2" kerning="true" hyphenate="true" skipifempty="false" skipifemptyvar="false" noparabreakoncopyfit="false"><tracking newsize="0.000000"><f name="Arial"><z newsize="10.0"><color name="Black">DOB &#19;<variable name="DATE_BIRTH3"></para>
+    </content> 
+  </flow> 
+  <flow  
+       name = "DOB Pos4" 
+       masterflow = "false" 
+       resizable = "false" 
+       id = "0" 
+       > 
+    <frames>
+      <frame type = "Text"> 
+        <framepos type = "Normal" 
+                 pagenumber = 6 
+                 x = 60426 
+                 y = 4109 
+                 width = 10800 
+                 depth = 144 
+                 layer = 1310 
+                 columns = 1 
+                 verticaljust = bottom 
+                 /> 
+        <textdata   >
+  </frame>
+
+    </frames>
+    <content>
+    <para style="(no style)" quad="L" findent="0" lindent="0" rindent="0" leadbefore="0" leadafter="0" widows="2" kerning="true" hyphenate="true" skipifempty="false" skipifemptyvar="false" noparabreakoncopyfit="false"><tracking newsize="0.000000"><f name="Arial"><z newsize="10.0"><color name="Black">DOB &#19;<variable name="DATE_BIRTH4"></para>
+    </content> 
+  </flow> 
+  <flow  
+       name = "DOB Pos5" 
+       masterflow = "false" 
+       resizable = "false" 
+       id = "0" 
+       > 
+    <frames>
+      <frame type = "Text"> 
+        <framepos type = "Normal" 
+                 pagenumber = 6 
+                 x = 60426 
+                 y = 5141 
+                 width = 10800 
+                 depth = 144 
+                 layer = 1320 
+                 columns = 1 
+                 verticaljust = bottom 
+                 /> 
+        <textdata   >
+  </frame>
+
+    </frames>
+    <content>
+    <para style="(no style)" quad="L" findent="0" lindent="0" rindent="0" leadbefore="0" leadafter="0" widows="2" kerning="true" hyphenate="true" skipifempty="false" skipifemptyvar="false" noparabreakoncopyfit="false"><tracking newsize="0.000000"><f name="Arial"><z newsize="10.0"><color name="Black">DOB &#19;<variable name="DATE_BIRTH5"></para>
+    </content> 
+  </flow> 
+  <flow  
+       name = "Auth No" 
+       masterflow = "false" 
+       resizable = "false" 
+       id = "0" 
+       > 
+    <frames>
+      <frame type = "Text"> 
+        <framepos type = "Normal" 
+                 pagenumber = 6 
+                 x = 60301 
+                 y = 2225 
+                 width = 18256 
+                 depth = 710 
+                 layer = 1330 
+                 columns = 1 
+                 verticaljust = top 
+                 /> 
+        <textdata   >
+  </frame>
+
+    </frames>
+    <content>
+    <para style="(no style)" quad="L" findent="0" lindent="0" rindent="0" leadbefore="0" leadafter="0" widows="2" kerning="true" hyphenate="true" skipifempty="false" skipifemptyvar="false" noparabreakoncopyfit="false"><tracking newsize="0.000000"><f name="Helvetica"><z newsize="10.0"><color name="Black">Auth No: ____________________</para><para style="(no style)" quad="L" findent="0" lindent="0" rindent="0" leadbefore="0" leadafter="0" widows="2" kerning="true" hyphenate="true" skipifempty="false" skipifemptyvar="false" noparabreakoncopyfit="false"><tracking newsize="0.000000"><f name="Helvetica"><z newsize="10.0"><color name="Black">Sig Comp By:________________</para><para style="(no style)" quad="L" findent="0" lindent="0" rindent="0" leadbefore="0" leadafter="0" widows="2" kerning="true" hyphenate="true" skipifempty="false" skipifemptyvar="false" noparabreakoncopyfit="false"><tracking newsize="0.000000"><f name="Helvetica"><z newsize="9.0"><color name="Black"></para><para style="(no style)" quad="L" findent="0" lindent="0" rindent="0" leadbefore="0" leadafter="0" widows="2" kerning="true" hyphenate="true" skipifempty="false" skipifemptyvar="false" noparabreakoncopyfit="false"><tracking newsize="0.000000"><f name="Helvetica"><z newsize="9.0"><color name="Black"></para><para style="(no style)" quad="L" findent="0" lindent="0" rindent="0" leadbefore="0" leadafter="0" widows="2" kerning="true" hyphenate="true" skipifempty="false" skipifemptyvar="false" noparabreakoncopyfit="false"><tracking newsize="0.000000"><f name="Helvetica"><z newsize="9.0"><color name="Black">Challenge &#19;Yes: _____ &#19;No:_____</para><para style="(no style)" quad="L" findent="0" lindent="0" rindent="0" leadbefore="0" leadafter="0" widows="2" kerning="true" hyphenate="true" skipifempty="false" skipifemptyvar="false" noparabreakoncopyfit="false"><tracking newsize="0.000000"><f name="Helvetica"><z newsize="9.0"><color name="Black">Challenge Result:_____________</para>
+    </content> 
+  </flow> 
+  <flow  
+       name = "Auth No" 
+       masterflow = "false" 
+       resizable = "false" 
+       id = "0" 
+       > 
+    <frames>
+      <frame type = "Text"> 
+        <framepos type = "Normal" 
+                 pagenumber = 6 
+                 x = 60301 
+                 y = 3265 
+                 width = 18256 
+                 depth = 710 
+                 layer = 1340 
+                 columns = 1 
+                 verticaljust = top 
+                 /> 
+        <textdata   >
+  </frame>
+
+    </frames>
+    <content>
+    <para style="(no style)" quad="L" findent="0" lindent="0" rindent="0" leadbefore="0" leadafter="0" widows="2" kerning="true" hyphenate="true" skipifempty="false" skipifemptyvar="false" noparabreakoncopyfit="false"><tracking newsize="0.000000"><f name="Helvetica"><z newsize="10.0"><color name="Black">Auth No: ____________________</para><para style="(no style)" quad="L" findent="0" lindent="0" rindent="0" leadbefore="0" leadafter="0" widows="2" kerning="true" hyphenate="true" skipifempty="false" skipifemptyvar="false" noparabreakoncopyfit="false"><tracking newsize="0.000000"><f name="Helvetica"><z newsize="10.0"><color name="Black">Sig Comp By:________________</para><para style="(no style)" quad="L" findent="0" lindent="0" rindent="0" leadbefore="0" leadafter="0" widows="2" kerning="true" hyphenate="true" skipifempty="false" skipifemptyvar="false" noparabreakoncopyfit="false"><tracking newsize="0.000000"><f name="Helvetica"><z newsize="9.0"><color name="Black"></para><para style="(no style)" quad="L" findent="0" lindent="0" rindent="0" leadbefore="0" leadafter="0" widows="2" kerning="true" hyphenate="true" skipifempty="false" skipifemptyvar="false" noparabreakoncopyfit="false"><tracking newsize="0.000000"><f name="Helvetica"><z newsize="9.0"><color name="Black"></para><para style="(no style)" quad="L" findent="0" lindent="0" rindent="0" leadbefore="0" leadafter="0" widows="2" kerning="true" hyphenate="true" skipifempty="false" skipifemptyvar="false" noparabreakoncopyfit="false"><tracking newsize="0.000000"><f name="Helvetica"><z newsize="9.0"><color name="Black">Challenge &#19;Yes: _____ &#19;No:_____</para><para style="(no style)" quad="L" findent="0" lindent="0" rindent="0" leadbefore="0" leadafter="0" widows="2" kerning="true" hyphenate="true" skipifempty="false" skipifemptyvar="false" noparabreakoncopyfit="false"><tracking newsize="0.000000"><f name="Helvetica"><z newsize="9.0"><color name="Black">Challenge Result:_____________</para>
+    </content> 
+  </flow> 
+  <flow  
+       name = "Auth No" 
+       masterflow = "false" 
+       resizable = "false" 
+       id = "0" 
+       > 
+    <frames>
+      <frame type = "Text"> 
+        <framepos type = "Normal" 
+                 pagenumber = 6 
+                 x = 60301 
+                 y = 4279 
+                 width = 18256 
+                 depth = 710 
+                 layer = 1350 
+                 columns = 1 
+                 verticaljust = top 
+                 /> 
+        <textdata   >
+  </frame>
+
+    </frames>
+    <content>
+    <para style="(no style)" quad="L" findent="0" lindent="0" rindent="0" leadbefore="0" leadafter="0" widows="2" kerning="true" hyphenate="true" skipifempty="false" skipifemptyvar="false" noparabreakoncopyfit="false"><tracking newsize="0.000000"><f name="Helvetica"><z newsize="10.0"><color name="Black">Auth No: ____________________</para><para style="(no style)" quad="L" findent="0" lindent="0" rindent="0" leadbefore="0" leadafter="0" widows="2" kerning="true" hyphenate="true" skipifempty="false" skipifemptyvar="false" noparabreakoncopyfit="false"><tracking newsize="0.000000"><f name="Helvetica"><z newsize="10.0"><color name="Black">Sig Comp By:________________</para><para style="(no style)" quad="L" findent="0" lindent="0" rindent="0" leadbefore="0" leadafter="0" widows="2" kerning="true" hyphenate="true" skipifempty="false" skipifemptyvar="false" noparabreakoncopyfit="false"><tracking newsize="0.000000"><f name="Helvetica"><z newsize="9.0"><color name="Black"></para><para style="(no style)" quad="L" findent="0" lindent="0" rindent="0" leadbefore="0" leadafter="0" widows="2" kerning="true" hyphenate="true" skipifempty="false" skipifemptyvar="false" noparabreakoncopyfit="false"><tracking newsize="0.000000"><f name="Helvetica"><z newsize="9.0"><color name="Black"></para><para style="(no style)" quad="L" findent="0" lindent="0" rindent="0" leadbefore="0" leadafter="0" widows="2" kerning="true" hyphenate="true" skipifempty="false" skipifemptyvar="false" noparabreakoncopyfit="false"><tracking newsize="0.000000"><f name="Helvetica"><z newsize="9.0"><color name="Black">Challenge &#19;Yes: _____ &#19;No:_____</para><para style="(no style)" quad="L" findent="0" lindent="0" rindent="0" leadbefore="0" leadafter="0" widows="2" kerning="true" hyphenate="true" skipifempty="false" skipifemptyvar="false" noparabreakoncopyfit="false"><tracking newsize="0.000000"><f name="Helvetica"><z newsize="9.0"><color name="Black">Challenge Result:_____________</para>
+    </content> 
+  </flow> 
+  <flow  
+       name = "Auth No" 
+       masterflow = "false" 
+       resizable = "false" 
+       id = "0" 
+       > 
+    <frames>
+      <frame type = "Text"> 
+        <framepos type = "Normal" 
+                 pagenumber = 6 
+                 x = 60345 
+                 y = 5331 
+                 width = 18256 
+                 depth = 707 
+                 layer = 1360 
+                 columns = 1 
+                 verticaljust = top 
+                 /> 
+        <textdata   >
+  </frame>
+
+    </frames>
+    <content>
+    <para style="(no style)" quad="L" findent="0" lindent="0" rindent="0" leadbefore="0" leadafter="0" widows="2" kerning="true" hyphenate="true" skipifempty="false" skipifemptyvar="false" noparabreakoncopyfit="false"><tracking newsize="0.000000"><f name="Helvetica"><z newsize="10.0"><color name="Black">Auth No: ____________________</para><para style="(no style)" quad="L" findent="0" lindent="0" rindent="0" leadbefore="0" leadafter="0" widows="2" kerning="true" hyphenate="true" skipifempty="false" skipifemptyvar="false" noparabreakoncopyfit="false"><tracking newsize="0.000000"><f name="Helvetica"><z newsize="10.0"><color name="Black">Sig Comp By:________________</para><para style="(no style)" quad="L" findent="0" lindent="0" rindent="0" leadbefore="0" leadafter="0" widows="2" kerning="true" hyphenate="true" skipifempty="false" skipifemptyvar="false" noparabreakoncopyfit="false"><tracking newsize="0.000000"><f name="Helvetica"><z newsize="9.0"><color name="Black"></para><para style="(no style)" quad="L" findent="0" lindent="0" rindent="0" leadbefore="0" leadafter="0" widows="2" kerning="true" hyphenate="true" skipifempty="false" skipifemptyvar="false" noparabreakoncopyfit="false"><tracking newsize="0.000000"><f name="Helvetica"><z newsize="9.0"><color name="Black"></para><para style="(no style)" quad="L" findent="0" lindent="0" rindent="0" leadbefore="0" leadafter="0" widows="2" kerning="true" hyphenate="true" skipifempty="false" skipifemptyvar="false" noparabreakoncopyfit="false"><tracking newsize="0.000000"><f name="Helvetica"><z newsize="9.0"><color name="Black">Challenge &#19;Yes: _____ &#19;No:_____</para><para style="(no style)" quad="L" findent="0" lindent="0" rindent="0" leadbefore="0" leadafter="0" widows="2" kerning="true" hyphenate="true" skipifempty="false" skipifemptyvar="false" noparabreakoncopyfit="false"><tracking newsize="0.000000"><f name="Helvetica"><z newsize="9.0"><color name="Black">Challenge Result:_____________</para>
+    </content> 
+  </flow> 
+  <flow  
+       name = "Show_ID1" 
+       masterflow = "false" 
+       resizable = "false" 
+       id = "0" 
+       > 
+    <frames>
+      <frame type = "Text"> 
+        <framepos type = "Normal" 
+                 pagenumber = 6 
+                 x = 60251 
+                 y = 1469 
+                 width = 18000 
+                 depth = 158 
+                 layer = 1370 
+                 columns = 1 
+                 verticaljust = top 
+                 /> 
+        <textdata   >
+  </frame>
+
+    </frames>
+    <content>
+    <para style="(no style)" quad="L" findent="0" lindent="0" rindent="0" leadbefore="0" leadafter="0" widows="2" kerning="true" hyphenate="true" skipifempty="false" skipifemptyvar="false" noparabreakoncopyfit="false"><tracking newsize="0.000000"><f name="Arial"><z newsize="10.0"><color name="Red"><variable name="ID1"></para>
+    </content> 
+  </flow> 
+  <flow  
+       name = "Show_ID2" 
+       masterflow = "false" 
+       resizable = "false" 
+       id = "0" 
+       > 
+    <frames>
+      <frame type = "Text"> 
+        <framepos type = "Normal" 
+                 pagenumber = 6 
+                 x = 60340 
+                 y = 2505 
+                 width = 18000 
+                 depth = 158 
+                 layer = 1380 
+                 columns = 1 
+                 verticaljust = top 
+                 /> 
+        <textdata   >
+  </frame>
+
+    </frames>
+    <content>
+    <para style="(no style)" quad="L" findent="0" lindent="0" rindent="0" leadbefore="0" leadafter="0" widows="2" kerning="true" hyphenate="true" skipifempty="false" skipifemptyvar="false" noparabreakoncopyfit="false"><tracking newsize="0.000000"><f name="Arial"><z newsize="10.0"><color name="Red"><variable name="ID2"></para>
+    </content> 
+  </flow> 
+  <flow  
+       name = "Show_ID3" 
+       masterflow = "false" 
+       resizable = "false" 
+       id = "0" 
+       > 
+    <frames>
+      <frame type = "Text"> 
+        <framepos type = "Normal" 
+                 pagenumber = 6 
+                 x = 60429 
+                 y = 3550 
+                 width = 18000 
+                 depth = 158 
+                 layer = 1390 
+                 columns = 1 
+                 verticaljust = top 
+                 /> 
+        <textdata   >
+  </frame>
+
+    </frames>
+    <content>
+    <para style="(no style)" quad="L" findent="0" lindent="0" rindent="0" leadbefore="0" leadafter="0" widows="2" kerning="true" hyphenate="true" skipifempty="false" skipifemptyvar="false" noparabreakoncopyfit="false"><tracking newsize="0.000000"><f name="Arial"><z newsize="10.0"><color name="Red"><variable name="ID3"></para>
+    </content> 
+  </flow> 
+  <flow  
+       name = "Show_ID4" 
+       masterflow = "false" 
+       resizable = "false" 
+       id = "0" 
+       > 
+    <frames>
+      <frame type = "Text"> 
+        <framepos type = "Normal" 
+                 pagenumber = 6 
+                 x = 60340 
+                 y = 4564 
+                 width = 18000 
+                 depth = 158 
+                 layer = 1400 
+                 columns = 1 
+                 verticaljust = top 
+                 /> 
+        <textdata   >
+  </frame>
+
+    </frames>
+    <content>
+    <para style="(no style)" quad="L" findent="0" lindent="0" rindent="0" leadbefore="0" leadafter="0" widows="2" kerning="true" hyphenate="true" skipifempty="false" skipifemptyvar="false" noparabreakoncopyfit="false"><tracking newsize="0.000000"><f name="Arial"><z newsize="10.0"><color name="Red"><variable name="ID4"></para>
+    </content> 
+  </flow> 
+  <flow  
+       name = "Show_ID5" 
+       masterflow = "false" 
+       resizable = "false" 
+       id = "0" 
+       > 
+    <frames>
+      <frame type = "Text"> 
+        <framepos type = "Normal" 
+                 pagenumber = 6 
+                 x = 60429 
+                 y = 5614 
+                 width = 18000 
+                 depth = 158 
+                 layer = 1410 
+                 columns = 1 
+                 verticaljust = top 
+                 /> 
+        <textdata   >
+  </frame>
+
+    </frames>
+    <content>
+    <para style="(no style)" quad="L" findent="0" lindent="0" rindent="0" leadbefore="0" leadafter="0" widows="2" kerning="true" hyphenate="true" skipifempty="false" skipifemptyvar="false" noparabreakoncopyfit="false"><tracking newsize="0.000000"><f name="Arial"><z newsize="10.0"><color name="Red"><variable name="ID5"></para>
+    </content> 
+  </flow> 
+  <flow  
+       name = "" 
+       masterflow = "false" 
+       resizable = "false" 
+       id = "0" 
+       > 
+    <frames>
+      <frame type = "Rectangle"> 
+        <framepos type = "Normal" 
+                 pagenumber = 6 
+                 x = 54817 
+                 y = 927 
+                 width = 3725 
+                 depth = 199 
+                 layer = 1457 
+                 columns = 1 
+                 verticaljust = top 
+                 drawborder = "true" 
+                 bordercolor = "Black" 
+                 borderthickness = 100 
+                 stroketint = 100.000000 
+                 /> 
+        <RectangleData fill = "false" 
+                      close = "true" > 
+  </frame>
+
+    </frames>
+    <content>
+    </content> 
+  </flow> 
+  <flow  
+       name = "Party1" 
+       masterflow = "false" 
+       resizable = "false" 
+       id = "0" 
+       > 
+    <frames>
+      <frame type = "Text"> 
+        <framepos type = "Normal" 
+                 pagenumber = 6 
+                 x = 54867 
+                 y = 932 
+                 width = 3625 
+                 depth = 189 
+                 layer = 1460 
+                 columns = 1 
+                 verticaljust = center 
+                 drawborder = "true" 
+                 bordercolor = "Black" 
+                 borderthickness = 100 
+                 stroketint = 100.000000 
+                 /> 
+        <textdata   >
+  </frame>
+
+    </frames>
+    <content>
+    <para style="(no style)" quad="C" findent="0" lindent="0" rindent="0" leadbefore="0" leadafter="0" widows="2" kerning="true" hyphenate="true" skipifempty="false" skipifemptyvar="false" noparabreakoncopyfit="false"><tracking newsize="0.000000"><f name="Arial"><z newsize="10.0"><color name="Black"><variable name="PARTY1"></para>
+    </content> 
+  </flow> 
+  <flow  
+       name = "" 
+       masterflow = "false" 
+       resizable = "false" 
+       id = "0" 
+       > 
+    <frames>
+      <frame type = "Rectangle"> 
+        <framepos type = "Normal" 
+                 pagenumber = 6 
+                 x = 54643 
+                 y = 1970 
+                 width = 3725 
+                 depth = 199 
+                 layer = 1467 
+                 columns = 1 
+                 verticaljust = top 
+                 drawborder = "true" 
+                 bordercolor = "Black" 
+                 borderthickness = 100 
+                 stroketint = 100.000000 
+                 /> 
+        <RectangleData fill = "false" 
+                      close = "true" > 
+  </frame>
+
+    </frames>
+    <content>
+    </content> 
+  </flow> 
+  <flow  
+       name = "Party2" 
+       masterflow = "false" 
+       resizable = "false" 
+       id = "0" 
+       > 
+    <frames>
+      <frame type = "Text"> 
+        <framepos type = "Normal" 
+                 pagenumber = 6 
+                 x = 54693 
+                 y = 1975 
+                 width = 3625 
+                 depth = 189 
+                 layer = 1470 
+                 columns = 1 
+                 verticaljust = center 
+                 drawborder = "true" 
+                 bordercolor = "Black" 
+                 borderthickness = 100 
+                 stroketint = 100.000000 
+                 /> 
+        <textdata   >
+  </frame>
+
+    </frames>
+    <content>
+    <para style="(no style)" quad="C" findent="0" lindent="0" rindent="0" leadbefore="0" leadafter="0" widows="2" kerning="true" hyphenate="true" skipifempty="false" skipifemptyvar="false" noparabreakoncopyfit="false"><tracking newsize="0.000000"><f name="Arial"><z newsize="10.0"><color name="Black"><variable name="PARTY2"></para>
+    </content> 
+  </flow> 
+  <flow  
+       name = "" 
+       masterflow = "false" 
+       resizable = "false" 
+       id = "0" 
+       > 
+    <frames>
+      <frame type = "Rectangle"> 
+        <framepos type = "Normal" 
+                 pagenumber = 6 
+                 x = 54817 
+                 y = 3004 
+                 width = 3725 
+                 depth = 199 
+                 layer = 1477 
+                 columns = 1 
+                 verticaljust = top 
+                 drawborder = "true" 
+                 bordercolor = "Black" 
+                 borderthickness = 100 
+                 stroketint = 100.000000 
+                 /> 
+        <RectangleData fill = "false" 
+                      close = "true" > 
+  </frame>
+
+    </frames>
+    <content>
+    </content> 
+  </flow> 
+  <flow  
+       name = "Party3" 
+       masterflow = "false" 
+       resizable = "false" 
+       id = "0" 
+       > 
+    <frames>
+      <frame type = "Text"> 
+        <framepos type = "Normal" 
+                 pagenumber = 6 
+                 x = 54867 
+                 y = 3009 
+                 width = 3625 
+                 depth = 189 
+                 layer = 1480 
+                 columns = 1 
+                 verticaljust = center 
+                 drawborder = "true" 
+                 bordercolor = "Black" 
+                 borderthickness = 100 
+                 stroketint = 100.000000 
+                 /> 
+        <textdata   >
+  </frame>
+
+    </frames>
+    <content>
+    <para style="(no style)" quad="C" findent="0" lindent="0" rindent="0" leadbefore="0" leadafter="0" widows="2" kerning="true" hyphenate="true" skipifempty="false" skipifemptyvar="false" noparabreakoncopyfit="false"><tracking newsize="0.000000"><f name="Arial"><z newsize="10.0"><color name="Black"><variable name="PARTY3"></para>
+    </content> 
+  </flow> 
+  <flow  
+       name = "" 
+       masterflow = "false" 
+       resizable = "false" 
+       id = "0" 
+       > 
+    <frames>
+      <frame type = "Rectangle"> 
+        <framepos type = "Normal" 
+                 pagenumber = 6 
+                 x = 54904 
+                 y = 4039 
+                 width = 3725 
+                 depth = 199 
+                 layer = 1487 
+                 columns = 1 
+                 verticaljust = top 
+                 drawborder = "true" 
+                 bordercolor = "Black" 
+                 borderthickness = 100 
+                 stroketint = 100.000000 
+                 /> 
+        <RectangleData fill = "false" 
+                      close = "true" > 
+  </frame>
+
+    </frames>
+    <content>
+    </content> 
+  </flow> 
+  <flow  
+       name = "Party4" 
+       masterflow = "false" 
+       resizable = "false" 
+       id = "0" 
+       > 
+    <frames>
+      <frame type = "Text"> 
+        <framepos type = "Normal" 
+                 pagenumber = 6 
+                 x = 54954 
+                 y = 4044 
+                 width = 3625 
+                 depth = 189 
+                 layer = 1490 
+                 columns = 1 
+                 verticaljust = center 
+                 drawborder = "true" 
+                 bordercolor = "Black" 
+                 borderthickness = 100 
+                 stroketint = 100.000000 
+                 /> 
+        <textdata   >
+  </frame>
+
+    </frames>
+    <content>
+    <para style="(no style)" quad="C" findent="0" lindent="0" rindent="0" leadbefore="0" leadafter="0" widows="2" kerning="true" hyphenate="true" skipifempty="false" skipifemptyvar="false" noparabreakoncopyfit="false"><tracking newsize="0.000000"><f name="Arial"><z newsize="10.0"><color name="Black"><variable name="PARTY4"></para>
+    </content> 
+  </flow> 
+  <flow  
+       name = "" 
+       masterflow = "false" 
+       resizable = "false" 
+       id = "0" 
+       > 
+    <frames>
+      <frame type = "Rectangle"> 
+        <framepos type = "Normal" 
+                 pagenumber = 6 
+                 x = 54730 
+                 y = 5082 
+                 width = 3725 
+                 depth = 199 
+                 layer = 1497 
+                 columns = 1 
+                 verticaljust = top 
+                 drawborder = "true" 
+                 bordercolor = "Black" 
+                 borderthickness = 100 
+                 stroketint = 100.000000 
+                 /> 
+        <RectangleData fill = "false" 
+                      close = "true" > 
+  </frame>
+
+    </frames>
+    <content>
+    </content> 
+  </flow> 
+  <flow  
+       name = "Party5" 
+       masterflow = "false" 
+       resizable = "false" 
+       id = "0" 
+       > 
+    <frames>
+      <frame type = "Text"> 
+        <framepos type = "Normal" 
+                 pagenumber = 6 
+                 x = 54780 
+                 y = 5087 
+                 width = 3625 
+                 depth = 189 
+                 layer = 1500 
+                 columns = 1 
+                 verticaljust = center 
+                 drawborder = "true" 
+                 bordercolor = "Black" 
+                 borderthickness = 100 
+                 stroketint = 100.000000 
+                 /> 
+        <textdata   >
+  </frame>
+
+    </frames>
+    <content>
+    <para style="(no style)" quad="C" findent="0" lindent="0" rindent="0" leadbefore="0" leadafter="0" widows="2" kerning="true" hyphenate="true" skipifempty="false" skipifemptyvar="false" noparabreakoncopyfit="false"><tracking newsize="0.000000"><f name="Arial"><z newsize="10.0"><color name="Black"><variable name="PARTY5"></para>
+    </content> 
+  </flow> 
+  <flow  
+       name = "Hide2" 
+       masterflow = "false" 
+       resizable = "false" 
+       id = "0" 
+       > 
+    <frames>
+      <frame type = "VImage"> 
+        <framepos                  pagenumber = 6 
+                 x = 695 
+                 y = 1947 
+                 width = 77760 
+                 depth = 1080 
+                 layer = 1590 
+                 columns = 1 
+                 verticaljust = top 
+                 /> 
+      <vimagedata name = "Blank2" > 
+      < imagedata 
+                alignh = "Left" 
+                alignv = "Top" 
+                scale = "Best Fit" 
+                clip = false 
+      />
+  </frame>
+
+    </frames>
+    <content>
+    </content> 
+  </flow> 
+  <flow  
+       name = "Hide3" 
+       masterflow = "false" 
+       resizable = "false" 
+       id = "0" 
+       > 
+    <frames>
+      <frame type = "VImage"> 
+        <framepos                  pagenumber = 6 
+                 x = 720 
+                 y = 3000 
+                 width = 77760 
+                 depth = 1174 
+                 layer = 1600 
+                 columns = 1 
+                 verticaljust = top 
+                 /> 
+      <vimagedata name = "Blank3" > 
+      < imagedata 
+                alignh = "Left" 
+                alignv = "Top" 
+                scale = "Best Fit" 
+                clip = false 
+      />
+  </frame>
+
+    </frames>
+    <content>
+    </content> 
+  </flow> 
+  <flow  
+       name = "Hide4" 
+       masterflow = "false" 
+       resizable = "false" 
+       id = "0" 
+       > 
+    <frames>
+      <frame type = "VImage"> 
+        <framepos                  pagenumber = 6 
+                 x = 720 
+                 y = 4018 
+                 width = 77760 
+                 depth = 1058 
+                 layer = 1610 
+                 columns = 1 
+                 verticaljust = top 
+                 /> 
+      <vimagedata name = "Blank4" > 
+      < imagedata 
+                alignh = "Left" 
+                alignv = "Top" 
+                scale = "Best Fit" 
+                clip = false 
+      />
+  </frame>
+
+    </frames>
+    <content>
+    </content> 
+  </flow> 
+  <flow  
+       name = "Hide5" 
+       masterflow = "false" 
+       resizable = "false" 
+       id = "0" 
+       > 
+    <frames>
+      <frame type = "VImage"> 
+        <framepos                  pagenumber = 6 
+                 x = 804 
+                 y = 5068 
+                 width = 77760 
+                 depth = 1044 
+                 layer = 1620 
+                 columns = 1 
+                 verticaljust = top 
+                 /> 
+      <vimagedata name = "Blank5" > 
+      < imagedata 
+                alignh = "Left" 
+                alignv = "Top" 
+                scale = "Best Fit" 
+                clip = false 
+      />
+  </frame>
+
+    </frames>
+    <content>
+    </content> 
+  </flow> 
+  <flow  
+       name = "chk2" 
+       masterflow = "false" 
+       resizable = "false" 
+       id = "0" 
+       > 
+    <frames>
+      <frame type = "Text"> 
+        <framepos type = "Normal" 
+                 pagenumber = 6 
+                 x = 43031 
+                 y = 2686 
+                 width = 15300 
+                 depth = 122 
+                 layer = 1630 
+                 columns = 1 
+                 verticaljust = center 
+                 /> 
+        <textdata   >
+  </frame>
+
+    </frames>
+    <content>
+    <para style="(no style)" quad="R" findent="0" lindent="0" rindent="0" leadbefore="0" leadafter="0" widows="2" kerning="true" hyphenate="true" skipifempty="false" skipifemptyvar="false" noparabreakoncopyfit="false"><tracking newsize="0.000000"><f name="Arial"><z newsize="8.0"><color name="Black"><b><variable name="_showdat2"></para>
+    </content> 
+  </flow> 
+  <flow  
+       name = "chk3" 
+       masterflow = "false" 
+       resizable = "false" 
+       id = "0" 
+       > 
+    <frames>
+      <frame type = "Text"> 
+        <framepos type = "Normal" 
+                 pagenumber = 6 
+                 x = 43031 
+                 y = 3721 
+                 width = 15300 
+                 depth = 122 
+                 layer = 1640 
+                 columns = 1 
+                 verticaljust = center 
+                 /> 
+        <textdata   >
+  </frame>
+
+    </frames>
+    <content>
+    <para style="(no style)" quad="R" findent="0" lindent="0" rindent="0" leadbefore="0" leadafter="0" widows="2" kerning="true" hyphenate="true" skipifempty="false" skipifemptyvar="false" noparabreakoncopyfit="false"><tracking newsize="0.000000"><f name="Arial"><z newsize="8.0"><color name="Black"><b><variable name="_showdat3"></para>
+    </content> 
+  </flow> 
+  <flow  
+       name = "chk4" 
+       masterflow = "false" 
+       resizable = "false" 
+       id = "0" 
+       > 
+    <frames>
+      <frame type = "Text"> 
+        <framepos type = "Normal" 
+                 pagenumber = 6 
+                 x = 43031 
+                 y = 4764 
+                 width = 15300 
+                 depth = 122 
+                 layer = 1650 
+                 columns = 1 
+                 verticaljust = center 
+                 /> 
+        <textdata   >
+  </frame>
+
+    </frames>
+    <content>
+    <para style="(no style)" quad="R" findent="0" lindent="0" rindent="0" leadbefore="0" leadafter="0" widows="2" kerning="true" hyphenate="true" skipifempty="false" skipifemptyvar="false" noparabreakoncopyfit="false"><tracking newsize="0.000000"><f name="Arial"><z newsize="8.0"><color name="Black"><b><variable name="_showdat4"></para>
+    </content> 
+  </flow> 
+  <flow  
+       name = "chk5" 
+       masterflow = "false" 
+       resizable = "false" 
+       id = "0" 
+       > 
+    <frames>
+      <frame type = "Text"> 
+        <framepos type = "Normal" 
+                 pagenumber = 6 
+                 x = 42944 
+                 y = 5798 
+                 width = 15300 
+                 depth = 122 
+                 layer = 1660 
+                 columns = 1 
+                 verticaljust = center 
+                 /> 
+        <textdata   >
+  </frame>
+
+    </frames>
+    <content>
+    <para style="(no style)" quad="R" findent="0" lindent="0" rindent="0" leadbefore="0" leadafter="0" widows="2" kerning="true" hyphenate="true" skipifempty="false" skipifemptyvar="false" noparabreakoncopyfit="false"><tracking newsize="0.000000"><f name="Arial"><z newsize="8.0"><color name="Black"><b><variable name="_showdat5"></para>
+    </content> 
+  </flow> 
+  <flow  
+       name = "" 
+       masterflow = "false" 
+       resizable = "false" 
+       id = "0" 
+       > 
+    <frames>
+      <frame type = "Text"> 
+        <framepos type = "Normal" 
+                 pagenumber = 6 
+                 x = 3130 
+                 y = 270 
+                 width = 24768 
+                 depth = 348 
+                 layer = 1670 
+                 columns = 1 
+                 verticaljust = center 
+                 /> 
+        <textdata   >
+  </frame>
+
+    </frames>
+    <content>
+    <para style="(no style)" quad="L" findent="0" lindent="0" rindent="0" leadbefore="0" leadafter="0" widows="2" kerning="true" hyphenate="true" skipifempty="false" skipifemptyvar="false" noparabreakoncopyfit="false"><tracking newsize="0.000000"><f name="Arial"><z newsize="12.0"><color name="Black"><b><variable name="Elec_date1"></para><para style="(no style)" quad="L" findent="0" lindent="0" rindent="0" leadbefore="0" leadafter="0" widows="2" kerning="true" hyphenate="true" skipifempty="false" skipifemptyvar="false" noparabreakoncopyfit="false"><tracking newsize="0.000000"><f name="Arial"><z newsize="12.0"><color name="Black"><b><variable name="Elec_Name1"></para>
+    </content> 
+  </flow> 
+</flowdict>
+
+<templatedict>
+  <template >
+    <pagemediasetting     
+masterpage = ""/>
+    <page 
+         masterpage = "MASTERPAGE_1" 
+         width = 79200 
+         depth = 61200 
+         pagenumber = -1 
+         /> 
+    <flow  
+         name = "" 
+         masterflow = "false" 
+         resizable = "false" 
+         id = "0" 
+         > 
+      <frames>
+        <frame type = "Image"> 
+          <framepos type = "Primitive" 
+                   pagenumber = 0 
+                   x = 0 
+                   y = 0 
+                   width = 79200 
+                   depth = 6120 
+                   layer = 2 
+                   columns = 1 
+                   verticaljust = top 
+                   /> 
+          < imagedata 
+                    name = ".\new mercer cnty final -05142013.pdf" 
+                    pagenumber = 1 
+                    pdfbboxtype = "MediaBox" 
+                    alignh = "Left" 
+                    alignv = "Top" 
+                    scale = "Fill" 
+                    clip = true 
+          />
+    </frame>
+
+      </frames>
+      <content>
+      </content> 
+    </flow> 
+  </template >
+  <template >
+    <pagemediasetting     
+masterpage = ""/>
+    <page 
+         masterpage = "MASTERPAGE_2" 
+         width = 79200 
+         depth = 61200 
+         pagenumber = -1 
+         /> 
+    <flow  
+         name = "" 
+         masterflow = "false" 
+         resizable = "false" 
+         id = "0" 
+         > 
+      <frames>
+        <frame type = "Image"> 
+          <framepos type = "Primitive" 
+                   pagenumber = 0 
+                   x = 0 
+                   y = 0 
+                   width = 79200 
+                   depth = 6120 
+                   layer = 2 
+                   columns = 1 
+                   verticaljust = top 
+                   /> 
+          < imagedata 
+                    name = ".\new mercer cnty final -05142013.pdf" 
+                    pagenumber = 2 
+                    pdfbboxtype = "MediaBox" 
+                    alignh = "Left" 
+                    alignv = "Top" 
+                    scale = "Fill" 
+                    clip = true 
+          />
+    </frame>
+
+      </frames>
+      <content>
+      </content> 
+    </flow> 
+  </template >
+  <template >
+    <pagemediasetting     
+masterpage = ""/>
+    <page 
+         masterpage = "MASTERPAGE_3" 
+         width = 79200 
+         depth = 61200 
+         pagenumber = -1 
+         /> 
+    <flow  
+         name = "" 
+         masterflow = "false" 
+         resizable = "false" 
+         id = "0" 
+         > 
+      <frames>
+        <frame type = "Image"> 
+          <framepos type = "Primitive" 
+                   pagenumber = 0 
+                   x = 0 
+                   y = 0 
+                   width = 79200 
+                   depth = 6120 
+                   layer = 2 
+                   columns = 1 
+                   verticaljust = top 
+                   /> 
+          < imagedata 
+                    name = ".\new mercer cnty final -05142013.pdf" 
+                    pagenumber = 3 
+                    pdfbboxtype = "MediaBox" 
+                    alignh = "Left" 
+                    alignv = "Top" 
+                    scale = "Fill" 
+                    clip = true 
+          />
+    </frame>
+
+      </frames>
+      <content>
+      </content> 
+    </flow> 
+  </template >
+  <template >
+    <pagemediasetting     
+masterpage = ""/>
+    <page 
+         masterpage = "MASTERPAGE_4" 
+         width = 79200 
+         depth = 61200 
+         pagenumber = -1 
+         /> 
+    <flow  
+         name = "" 
+         masterflow = "false" 
+         resizable = "false" 
+         id = "0" 
+         > 
+      <frames>
+        <frame type = "Image"> 
+          <framepos type = "Primitive" 
+                   pagenumber = 0 
+                   x = 0 
+                   y = 0 
+                   width = 79200 
+                   depth = 6120 
+                   layer = 2 
+                   columns = 1 
+                   verticaljust = top 
+                   /> 
+          < imagedata 
+                    name = ".\new mercer cnty final -05142013.pdf" 
+                    pagenumber = 4 
+                    pdfbboxtype = "MediaBox" 
+                    alignh = "Left" 
+                    alignv = "Top" 
+                    scale = "Fill" 
+                    clip = true 
+          />
+    </frame>
+
+      </frames>
+      <content>
+      </content> 
+    </flow> 
+  </template >
+  <template >
+    <pagemediasetting     
+masterpage = ""/>
+    <page 
+         masterpage = "MASTERPAGE_5" 
+         width = 79200 
+         depth = 61200 
+         pagenumber = -1 
+         /> 
+    <flow  
+         name = "" 
+         masterflow = "false" 
+         resizable = "false" 
+         id = "0" 
+         > 
+      <frames>
+        <frame type = "Image"> 
+          <framepos type = "Primitive" 
+                   pagenumber = 0 
+                   x = 0 
+                   y = 0 
+                   width = 79200 
+                   depth = 6120 
+                   layer = 2 
+                   columns = 1 
+                   verticaljust = top 
+                   /> 
+          < imagedata 
+                    name = ".\new mercer cnty final -05142013.pdf" 
+                    pagenumber = 5 
+                    pdfbboxtype = "MediaBox" 
+                    alignh = "Left" 
+                    alignv = "Top" 
+                    scale = "Fill" 
+                    clip = true 
+          />
+    </frame>
+
+      </frames>
+      <content>
+      </content> 
+    </flow> 
+  </template >
+  <template >
+    <pagemediasetting     
+masterpage = ""/>
+    <page 
+         masterpage = "MASTERPAGE_6" 
+         width = 79200 
+         depth = 61200 
+         pagenumber = -1 
+         /> 
+    <flow  
+         name = "" 
+         masterflow = "false" 
+         resizable = "false" 
+         id = "0" 
+         > 
+      <frames>
+        <frame type = "Image"> 
+          <framepos type = "Primitive" 
+                   pagenumber = 0 
+                   x = 0 
+                   y = 0 
+                   width = 79200 
+                   depth = 6120 
+                   layer = 2 
+                   columns = 1 
+                   verticaljust = top 
+                   /> 
+          < imagedata 
+                    name = ".\new mercer cnty final -05142013.pdf" 
+                    pagenumber = 6 
+                    pdfbboxtype = "MediaBox" 
+                    alignh = "Left" 
+                    alignv = "Top" 
+                    scale = "Fill" 
+                    clip = true 
+          />
+    </frame>
+
+      </frames>
+      <content>
+      </content> 
+    </flow> 
+  </template >
+</templatedict>
+
+<pageelementsdict>
+</pageelementsdict>
+
+<pagedict>
+  <page 
+       name = "my_poll1" 
+       unused = "true" 
+       masterpage = "MASTERPAGE_1" 
+       width = 79200 
+       depth = 61200 
+       pagenumber = 1 
+       /> 
+  <page 
+       name = "my_poll2" 
+       unused = "true" 
+       masterpage = "MASTERPAGE_2" 
+       width = 79200 
+       depth = 61200 
+       pagenumber = 2 
+       /> 
+  <page 
+       name = "my_poll3" 
+       unused = "true" 
+       masterpage = "MASTERPAGE_3" 
+       width = 79200 
+       depth = 61200 
+       pagenumber = 3 
+       /> 
+  <page 
+       name = "my_poll4" 
+       unused = "true" 
+       masterpage = "MASTERPAGE_4" 
+       width = 79200 
+       depth = 61200 
+       pagenumber = 4 
+       /> 
+  <page 
+       name = "slip_sheet" 
+       unused = "true" 
+       masterpage = "MASTERPAGE_5" 
+       width = 79200 
+       depth = 61200 
+       pagenumber = 5 
+       /> 
+  <page 
+       masterpage = "MASTERPAGE_6" 
+       width = 79200 
+       depth = 61200 
+       pagenumber = 6 
+       /> 
+</pagedict>
+
+<fontdict>
+
+  <fontmetrics  
+              family = "Arial" 
+              style = "Regular" 
+              psname = "ArialMT" 
+              ttffilename = "Arial.otf" 
+              pfafilename = "Arial.pfa" 
+              ufkfilename = "Arial.ufk" 
+              bold = "0" 
+              italic = "0" 
+              charset = "W" 
+              type = "True Type" 
+              format = "bfk" 
+              > 
+    0000000200000007417269616c4d5400000006202020202020000000062020202020205a5a5a5a0000010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001150162022c022c0379029a00be014d014d018502470115014d01150115022c022c022c022c022c022c022c022c022c022c01150115024702470247022c03f7029a029a02d202d2029a0262030902d2011501f4029a022c034102d20309029a030902d2029a026202d2029a03af029a029a026201150115011501d5022c014d022c022c01f4022c022c0115022c022c00de00de01f400de0341022c022c022c022c014d01f40115022c01f402d201f401f401f4014d0103014d02470000022c000000de022c014d03e8022c022c014d03e8029a014d03e8000002620000000000de00de014d014d015e022c03e8014d03e801f4014d03af000001f4029a0115014d022c022c022c022c0103022c014d02e00172022c0247014d02e00228018f0224014d014d014d024002190115014d014d016d022c0341034103410262029a029a029a029a029a029a03e802d2029a029a029a029a011501150115011502d202d2030903090309030903090247030902d202d202d202d2029a029a0262022c022c022c022c022c022c037901f4022c022c022c022c0115011501150115022c022c022c022c022c022c022c02240262022c022c022c022c01f4022c01f4000001000000000000000000000000000000000000000000000000000000000000000000002122232425262728292a2b2c2d2e2f303132333435363738393a3b3c3d3e3f404142434445464748494a4b4c4d4e4f505152535455565758595a5b5c5d5e5f606162636465666768696a6b6c6d6e6f707172737475767778797a7b7c7d7e00800082838485868788898a8b8c008e00009192939495969798999a9b9c009e9fa0a1a2a3a4a5a6a7a8a9aaabacadaeafb0b1b2b3b4b5b6b7b8b9babbbcbdbebfc0c1c2c3c4c5c6c7c8c9cacbcccdcecfd0d1d2d3d4d5d6d7d8d9dadbdcdddedfe0e1e2e3e4e5e6e7e8e9eaebecedeeeff0f1f2f3f4f5f6f7f8f9fafbfcfdfeff00000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000500000000000000000000000000639191000292730002929200024154000741560007415700044159000741760002417700024179000241920007462c000b462e000b464100064c5400074c5600074c5700074c5900074c7900044c920006502c000d502e000d5041000752540002525600025257000252590002542c000b542d0006542e000b543a000b543b000b54410007544f00025461000b5463000b5465000b54690004546f000b547200045473000b54750004547700065479000654ad0006562c0009562d0006562e0009563a0004563b000456410007566100075665000656690002566f000656720004567500045679000456ad0006572c0006572d0002572e0006573a0002573b000257410004576100045765000257690000576f000257720002577500025779000157ad0002592c000d592d0009592e000d593a0006593b000659410007596100075965000959690004596f00095970000759710009597500065976000659ad0009666600026692fffe722c0006722e00067292fffc762c0007762e0007772c0006772e0006792c0007792e00070000000100000007417269616c4d54000000010000000a57696e4368617253657400000ba6fffffca2000002668000000080000000fffff55effffface00002000fffffacefffffe4e0000012c00000424000000cc00000b3400000a66000000000000023600000b3400000a6600000000000007a246d36388
+  </fontmetrics> 
+  <fontmetrics  
+              family = "Arial" 
+              style = "Bold" 
+              psname = "Arial-BoldMT" 
+              ttffilename = "Arial Negrita.otf" 
+              pfafilename = "Arial Negrita.pfa" 
+              ufkfilename = "Arial Negrita.ufk" 
+              bold = "1" 
+              italic = "0" 
+              charset = "W" 
+              type = "True Type" 
+              format = "bfk" 
+              > 
+    000000020000000c417269616c2d426f6c644d5400000006202020202020000000062020202020205a5a5a5a00000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000014d01da022c022c037902d200ed014d014d018502470115014d01150115022c022c022c022c022c022c022c022c022c022c014d014d024702470247026203cf02d202d202d202d2029a0262030902d20115022c02d20262034102d20309029a030902d2029a026202d2029a03af029a029a0262014d0115014d0247022c014d022c0262022c0262022c014d0262026201150115022c0115037902620262026202620185022c014d0262022c0309022c022c01f401850117018502470000022c00000115022c01f403e8022c022c014d03e8029a014d03e800000262000000000115011501f401f4015e022c03e8014d03e8022c014d03af000001f4029a0115014d022c022c022c022c0117022c014d02e00172022c0247014d02e00228018f0224014d014d014d0240022c0115014d014d016d022c034103410341026202d202d202d202d202d202d203e802d2029a029a029a029a011501150115011502d202d2030903090309030903090247030902d202d202d202d2029a029a0262022c022c022c022c022c022c0379022c022c022c022c022c01150115011501150262026202620262026202620262022402620262026202620262022c0262022c000001000000000000000000000000000000000000000000000000000000000000000000002122232425262728292a2b2c2d2e2f303132333435363738393a3b3c3d3e3f404142434445464748494a4b4c4d4e4f505152535455565758595a5b5c5d5e5f606162636465666768696a6b6c6d6e6f707172737475767778797a7b7c7d7e00800082838485868788898a8b8c008e00009192939495969798999a9b9c009e9fa0a1a2a3a4a5a6a7a8a9aaabacadaeafb0b1b2b3b4b5b6b7b8b9babbbcbdbebfc0c1c2c3c4c5c6c7c8c9cacbcccdcecfd0d1d2d3d4d5d6d7d8d9dadbdcdddedfe0e1e2e3e4e5e6e7e8e9eaebecedeeeff0f1f2f3f4f5f6f7f8f9fafbfcfdfeff00000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000500000000000000000000000000619191000492730004929200044154000741560007415700064159000941760004417700024179000441920006462c000b462e000b464100064c5400074c5600074c5700064c5900094c7900044c920006502c000d502e000d50410007525600025257000252590004542c000b542d0006542e000b543a000b543b000b54410007544f000254610007546300075465000754690002546f0007547200065473000754750007547700075479000754ad0006562c0009562d0006562e0009563a0006563b000656410007566100065665000656690002566f000756720006567500045679000456ad0006572c0006572d0002572e0006573a0002573b000257410006576100045765000257690001576f000257720002577500025779000257ad0002592c000b592d0006592e000b593a0007593b000759410009596100065965000659690004596f00075970000659710007597500065976000659ad00066692fffe722c0006722e00067292fffc762c0007762e0007772c0004772e0004792c0007792e0007000000010000000c417269616c2d426f6c644d54000000010000000a57696e4368617253657400000ba6fffffca2000002668000000080000000fffff5f4fffff9fa00002000fffff9fafffffe4e000001ae00000424000000cc00000b3400000a66000000000000023600000b3400000a6600000000000007a22630f181
+  </fontmetrics> 
+  <fontmetrics  
+              family = "Arial" 
+              style = "Bold Italic" 
+              psname = "Arial-BoldItalicMT" 
+              ttffilename = "Arial Negrita Cursiva.otf" 
+              pfafilename = "Arial Negrita Cursiva.pfa" 
+              ufkfilename = "Arial Negrita Cursiva.ufk" 
+              bold = "1" 
+              italic = "1" 
+              charset = "W" 
+              type = "True Type" 
+              format = "bfk" 
+              > 
+    0000000200000012417269616c2d426f6c644974616c69634d5400000006202020202020000000062020202020205a5a5a5a00000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000014d01da022c022c037902d200ed014d014d018502470115014d01150115022c022c022c022c022c022c022c022c022c022c014d014d024702470247026203cf02d202d202d202d2029a0262030902d20115022c02d20262034102d20309029a030902d2029a026202d2029a03af029a029a0262014d0115014d0247022c014d022c0262022c0262022c014d0262026201150115022c0115037902620262026202620185022c014d0262022c0309022c022c01f401850117018502470000022c00000115022c01f403e8022c022c014d03e8029a014d03e800000262000000000115011501f401f4015e022c03e8014d03e8022c014d03af000001f4029a0115014d022c022c022c022c0117022c014d02e00172022c0247014d02e00228018f0224014d014d014d0240022c0115014d014d016d022c034103410341026202d202d202d202d202d202d203e802d2029a029a029a029a011501150115011502d202d2030903090309030903090247030902d202d202d202d2029a029a0262022c022c022c022c022c022c0379022c022c022c022c022c01150115011501150262026202620262026202620262022402620262026202620262022c0262022c000001000000000000000000000000000000000000000000000000000000000000000000002122232425262728292a2b2c2d2e2f303132333435363738393a3b3c3d3e3f404142434445464748494a4b4c4d4e4f505152535455565758595a5b5c5d5e5f606162636465666768696a6b6c6d6e6f707172737475767778797a7b7c7d7e00800082838485868788898a8b8c008e00009192939495969798999a9b9c009e9fa0a1a2a3a4a5a6a7a8a9aaabacadaeafb0b1b2b3b4b5b6b7b8b9babbbcbdbebfc0c1c2c3c4c5c6c7c8c9cacbcccdcecfd0d1d2d3d4d5d6d7d8d9dadbdcdddedfe0e1e2e3e4e5e6e7e8e9eaebecedeeeff0f1f2f3f4f5f6f7f8f9fafbfcfdfeff000001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000005000000000000000000000000005f91910004927300029274fffe929200044154000741560007415700064159000741920006462c000b462e000b464100064c5400074c5600064c5700064c5900074c920007502c000d502e000d50410007525400025257000252590002542c0007542d0006542e0007543a0007543b000754410007544f000254610004546300045465000454690002546f0004547200025473000454750002547700045479000454ad0006562c0009562d0004562e0009563a0004563b000456410007566100045665000456690004566f000456720002567500025679000256ad0004572c0007572d0004572e0007573a0004573b000457410006576100025765000257690001576f000257720002577500025779000257ad0004592c0009592d0007592e0009593a0006593b000659410007596100045965000459690004596f00045970000459710004597500045976000459ad0007666600026692fffe722c0006722e00067292fffc762c0006762e0006772c0004772e0004792c0004792e00040000000100000012417269616c2d426f6c644974616c69634d54000000010000000a57696e4368617253657400000ba6fffffca2000002668000000080000000fffff70cfffff9fa00001282fffff9fafffffe4e000001ae00000424000000cc00000b3400000a660000003c0000023600000b3400000a66000000b4000007a2f6a37e88
+  </fontmetrics> 
+  <fontmetrics  
+              family = "Arial" 
+              style = "Italic" 
+              psname = "Arial-ItalicMT" 
+              ttffilename = "Arial Cursiva.otf" 
+              pfafilename = "Arial Cursiva.pfa" 
+              ufkfilename = "Arial Cursiva.ufk" 
+              bold = "0" 
+              italic = "1" 
+              charset = "W" 
+              type = "True Type" 
+              format = "bfk" 
+              > 
+    000000020000000e417269616c2d4974616c69634d5400000006202020202020000000062020202020205a5a5a5a0000010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001150162022c022c0379029a00be014d014d018502470115014d01150115022c022c022c022c022c022c022c022c022c022c01150115024702470247022c03f7029a029a02d202d2029a0262030902d2011501f4029a022c034102d20309029a030902d2029a026202d2029a03af029a029a026201150115011501d5022c014d022c022c01f4022c022c0115022c022c00de00de01f400de0341022c022c022c022c014d01f40115022c01f402d201f401f401f4014d0103014d02470000022c000000de022c014d03e8022c022c014d03e8029a014d03e8000002620000000000de00de014d014d015e022c03e8014d03e801f4014d03af000001f4029a0115014d022c022c022c022c0103022c014d02e00172022c0247014d02e00228018f0224014d014d014d024002190115014d014d016d022c0341034103410262029a029a029a029a029a029a03e802d2029a029a029a029a011501150115011502d202d2030903090309030903090247030902d202d202d202d2029a029a0262022c022c022c022c022c022c037901f4022c022c022c022c0115011501150115022c022c022c022c022c022c022c02240262022c022c022c022c01f4022c01f4000001000000000000000000000000000000000000000000000000000000000000000000002122232425262728292a2b2c2d2e2f303132333435363738393a3b3c3d3e3f404142434445464748494a4b4c4d4e4f505152535455565758595a5b5c5d5e5f606162636465666768696a6b6c6d6e6f707172737475767778797a7b7c7d7e00800082838485868788898a8b8c008e00009192939495969798999a9b9c009e9fa0a1a2a3a4a5a6a7a8a9aaabacadaeafb0b1b2b3b4b5b6b7b8b9babbbcbdbebfc0c1c2c3c4c5c6c7c8c9cacbcccdcecfd0d1d2d3d4d5d6d7d8d9dadbdcdddedfe0e1e2e3e4e5e6e7e8e9eaebecedeeeff0f1f2f3f4f5f6f7f8f9fafbfcfdfeff000001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000005000000000000000000000000005e9191000492730002929200044154000741560006415700024159000741760002417700024179000141920004462c000d462e000d464100074c5400074c5600064c5700044c5900094c7900024c920006502c000d502e000d5041000752540002525600025257000252590004542c0009542d0009542e0009543a0007543b000754410007544f000254610009546300095465000954690001546f0009547200075473000954750007547700075479000754ad0009562c0007562d0004562e0007563a0002563b000256410006566100045665000456690002566f000456720002567500025679000256ad0004572c0004572d0002572e00045741000257610002576500025769000157ad0002592c0009592d0007592e0009593a0004593b000459410006596100075965000659690002596f00065970000659710006597500045976000459ad00076692fffc722c0006722d0002722e00047292fffc72ad0002762c0007762e0007772c0006772e0006792c0007792e0007000000010000000e417269616c2d4974616c69634d54000000010000000a57696e4368617253657400000ba6fffffcae000002668000000080000000fffff7baffffface0000114efffffacefffffe4e0000012c00000424000000cc00000b3400000a660000003c0000023600000b3400000a66000000b4000007a21366c1c8
+  </fontmetrics> 
+</fontdict>
+

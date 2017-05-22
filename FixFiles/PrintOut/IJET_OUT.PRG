@@ -1,0 +1,459 @@
+
+CLOSE DATABASES
+RUN CD &START_DIR
+
+PROG=[]
+SET EXCLUSIVE OFF
+SET SYSMENU ON
+SET SYSMENU TO DEFAULT
+
+
+***********************
+FUNCTION LOC_DIR
+
+CLOSE DATABASES
+SELECT 0
+THIS_FILE=''
+
+RUN CD &DR\JOBS
+
+THIS_FILE = GETFILE('DBF', 'Browse For a .DBF:', 'Browse',0)
+
+IF !EMPTY(THIS_FILE)
+   BASE_DIR=SUBSTR( THIS_FILE,1,RAT('\',THIS_FILE)-1 )
+   RUN CD &BASE_DIR
+
+   NewTXT = strtran( THIS_FILE, 'DBF','TXT')
+
+   USE (THIS_FILE) IN A
+   IF LEN(RTRIM(THIS_FILE))>30
+      SET FULLPATH OFF
+   ENDIF
+      
+   @ 03,10 SAY DBF('A')
+   SHOW GET OPT ENABLE
+   SHOW GET WRAP_TEXT ENABLE
+   SHOW GET MAX_WRAP ENABLE
+
+ENDIF
+
+
+**************************
+FUNCTION PROCEED
+SHOW GET DIR_OPT DISABLED
+SHOW GET OPT DISABLED
+SHOW GET WRAP_TEXT DISABLED
+
+ADD_TO_DBF=''
+ORG_FL_CNT=0
+
+USE (THIS_FILE)
+SELECT A
+ORG_FL_CNT=FCOUNT()
+
+
+FOR MCOUNT = 1 TO ORG_FL_CNT+8          && INIT CHECKBOX FIELDS
+    FLD="FLD"+LTRIM(STR(MCOUNT,2))
+    &FLD=0
+ENDFOR
+
+
+IF WRAP_TEXT=1
+   =CHKBX_WIN()
+   =DO_CHKBX()      &&  SELECT FIELDS TO CHECK FOR SPLIT AND ADD FIELDS
+
+   IF !EMPTY(ADD_TO_DBF)
+     GO TOP
+     DO WHILE NOT EOF()
+      FOR mcount = 1 TO ORG_FL_CNT
+        FLD="FLD"+LTRIM(STR(MCOUNT,2)) 
+        @ 07,07 SAY "Processing......"+FIELD[mcount]+"  "+STR(&FLD,2)
+        IF &FLD=1
+           =WRAP(MCOUNT)
+        ENDIF
+      ENDFOR
+      SKIP
+     ENDDO
+        @ 07,07 SAY "Processing...... Complete      "
+  ENDIF
+
+ENDIF  && END WRAP TEXT OPT
+
+
+
+** CREATE PRINTPRO DBF FOR FORMATING - THEN OUTPUT TO SDF
+USE (THIS_FILE)
+SELECT A
+=FORMAT_DBF()
+
+GO TOP
+=MOVE_UP()
+
+** COPY TO ( NewTXT ) SDF
+=WRITE_SDF()
+
+CLOSE ALL DATABASES
+=CLEAN_UP()    &&  ERASE ALL NON RELEVANT FILES
+
+
+
+
+**********************
+FUNCTION WRITE_SDF
+  TEMP=''
+ 
+  GO TOP
+  
+  IF FILE( NewTxt )			                  && Does file exist?
+     Prn_Out = FOPEN(NewTxt,12)	              && If so, open read-write
+  ELSE
+     Prn_Out = FCREATE(NewTxt)
+  ENDIF
+
+  IF Prn_Out < 0					         && Check for error opening file
+     WAIT 'Cannot open or create output file' WINDOW NOWAIT
+  ELSE							       && If no error, write to file
+     =DROP_FLDS()      
+
+     GO TOP 
+     SCAN WHILE NOT EOF()
+       =Next_Line()
+       =FWRITE(Prn_Out, TEMP)
+     ENDSCAN
+
+  ENDIF
+  =FCLOSE(Prn_Out)				       && Close file
+
+*********************
+FUNCTION DROP_FLDS
+
+   FOR MCOUNT = 1 TO FCOUNT()          && INIT CHECKBOX FIELDS
+       FLD="FLD"+LTRIM(STR(MCOUNT,2))
+
+       FLD_NAME=FIELD[mcount]
+       COUNT FOR !EMPTY(&FLD_NAME) TO X
+       IF X>1
+          &FLD=1
+       ELSE
+          &FLD=0
+      ENDIF
+  ENDFOR
+
+********************
+FUNCTION Next_Line
+  TEMP=''
+  FLD_NAME=''
+    
+  FOR mcount = 1 TO FCOUNT()
+      FLD="FLD"+LTRIM(STR(mcount,2))
+      IF &FLD=1
+        FLD_NAME=FIELD[mcount]
+        TEMP=TEMP+&FLD_NAME
+      ENDIF
+  ENDFOR
+  TEMP=TEMP+CHR(13)+CHR(10)
+
+
+*********************
+FUNCTION DO_CHKBX
+SELECT A
+ADD_TO_DBF=''
+
+=NEW_STRU()
+IF !EMPTY(ADD_TO_DBF)
+   X=LEN(RTRIM(ADD_TO_DBF))
+   ADD_TO_DBF= SUBSTR(ADD_TO_DBF,1,X-1)+") "
+   =ADD_FLDS()
+ELSE
+   =WARNING( ' ','Check Boxes are were not selected...','Will Proceed with Output to Print Pro',' ')
+ENDIF
+
+
+**************************
+FUNCTION NEW_STRU                 && ORG_FL_CNT=FCOUNT()
+
+FOR mcount = 1 TO ORG_FL_CNT
+  FLD="FLD"+LTRIM(STR(MCOUNT,2)) 
+  IF &FLD=1
+     IF EMPTY(ADD_TO_DBF)
+        ADD_TO_DBF="CREATE TABLE 'TempStr' ( "
+      ENDIF
+     THIS_FLD=EVALUATE("FIELD["+LTRIM(STR(MCOUNT,2))+"]")
+     THIS_FLD=RTRIM(SUBSTR(THIS_FLD,1,9))
+     ADD_TO_DBF=ADD_TO_DBF+THIS_FLD+"1 C("+LTRIM(STR(MAX_WRAP,2))+"),"
+     ADD_TO_DBF=ADD_TO_DBF+THIS_FLD+"2 C("+LTRIM(STR(MAX_WRAP,2))+"),"
+  ENDIF
+
+ENDFOR
+
+
+******************
+FUNCTION ADD_FLDS
+USE (THIS_FILE) IN A
+
+COPY STRU EXTENDED TO TEMP1
+USE TEMP1 IN A
+
+** &ADD_TO_DBF-> CREATE TABLE 'TempStr' ( FIELD1 C(40),FIELD2 C(50).. )
+&ADD_TO_DBF
+
+COPY STRU EXTENDED TO TEMP2
+USE
+
+SELECT A            && TEMP1.DBF WHICH IS STRU OF ( THIS_FILE )
+APPEND FROM TEMP2   && ADDS EXTENED STRU OF TEMP1 FROM TEMP2
+CLOSE DATABASES
+
+
+CREATE IMPORT_D FROM TEMP1
+USE IMPORT_D IN A
+APPEND FROM (THIS_FILE)
+USE
+
+ERASE (THIS_FILE)
+RENAME IMPORT_D.DBF TO (THIS_FILE)
+
+ERASE TEMP1.DBF
+ERASE TEMP2.DBF
+ERASE TempStr.DBF
+
+USE (THIS_FILE) IN A
+SELECT A
+
+**************************
+FUNCTION WRAP
+
+PARAMETER SEL_LINE
+PRIVATE PLINE, PlINE1, PLINE2, MAX_LEN
+MAX_LEN=0
+
+PLINE=EVALUATE("FIELD["+LTRIM(STR(SEL_LINE,2))+"]")
+PLINE1=EVALUATE("FIELD["+LTRIM(STR(SEL_LINE,2))+"]")
+PLINE1=RTRIM(SUBSTR(PLINE1,1,9))+"1"
+PLINE2=EVALUATE("FIELD["+LTRIM(STR(SEL_LINE,2))+"]")
+PLINE2=RTRIM(SUBSTR(PLINE2,1,9))+"2"
+
+NEW_LN1=''
+NEW_LN2=''
+NEW_LN3=''
+
+MAX_LEN=LEN(RTRIM(&PLINE))
+
+IF MAX_LEN>=MAX_WRAP
+
+   TEST_LN1=SUBSTR(&PLINE, 1,MAX_WRAP)
+   TEST_LN2=SUBSTR(&PLINE, MAX_WRAP+1,65-MAX_WRAP)
+   @ 09,02 CLEAR TO 13,70
+  
+   L_POS=RAT(' ',TEST_LN1)
+   NEW_LN1=SUBSTR(TEST_LN1,1,L_POS)  
+   @ 10,02 SAY '1: '+NEW_LN1
+   NEW_LN2=SUBSTR(&PLINE,L_POS+1, MAX_LEN)   
+   @ 11,02 SAY '2: '+NEW_LN2
+
+   @ 15,07 SAY 'MAX_WRAP: '+STR(MAX_WRAP,4)+'  MAX_LEN: '+STR(MAX_LEN,4)
+   
+   IF LEN(RTRIM(NEW_LN2))>MAX_WRAP
+      OLD_NEW2=NEW_LN2
+      TEST_LN3=SUBSTR(NEW_LN2,1,MAX_WRAP)
+      L_POS=RAT(' ',TEST_LN3)
+      NEW_LN2=SUBSTR(TEST_LN3,1,L_POS)  
+      @ 11,06 SAY SPACE(60)
+      @ 11,06 SAY 'New Line2: '+NEW_LN2
+
+      NEW_LN3=SUBSTR(OLD_NEW2,L_POS+1,LEN(RTRIM(OLD_NEW2))-L_POS)
+      @ 12,06 SAY 'New Line3: '+NEW_LN3
+      =WARNING( 'Too Many Lines In '+FIELD[SEL_LINE]+' ... Program Terminated', 'Line1: '+NEW_LN1, 'Line2: '+NEW_LN2, 'Line3: '+NEW_LN3  )
+   ENDIF
+
+   REPLACE &PLINE1 WITH NEW_LN1;
+           &PLINE2 WITH NEW_LN2	
+
+ENDIF
+
+
+
+******************
+FUNCTION WARNING
+PARAMETER WARN_MESS, MY_ERROR1, MY_ERROR2, MY_ERROR3 
+
+* SET COLOR TO W/R+
+PUSH KEY CLEAR
+
+DEFINE   WINDOW HELPWINDOW FROM 5,15 TO 14, 65 SHADOW DOUBLE
+ACTIVATE WINDOW HELPWINDOW
+
+@ 0, 0 SAY PADC('Error Message',WCOLS()-1)
+@ 1, 0 TO 1, WCOLS()-1
+@ 2, 2 say WARN_MESS
+@ 3, 2 say ' '
+@ 4, 2 say MY_ERROR1
+@ 5, 2 say MY_ERROR2
+@ 6, 2 say MY_ERROR3
+
+WAIT WINDOW
+RELEASE WINDOW HELPWINDOW
+POP KEY
+
+IF 'Program Terminated'$WARN_MESS
+    CANCEL
+ENDIF
+
+
+
+
+*******************
+FUNCTION CHKBX_WIN
+
+DEFINE WINDOW entry FROM 4,10 TO 20,70 ;
+	TITLE ' Select Fields ' FLOAT SHADOW SYSTEM COLOR SCHEME 14
+	ACTIVATE WINDOW entry
+
+
+   **** DISP CHECK BOXES HERE
+   USE (THIS_FILE) IN A
+   SELECT A
+   
+   NO_FIELDS=FCOUNT()
+   LN=2
+   XPOS=2
+   ON_OFF=''
+ 
+   FOR MCOUNT=1 TO NO_FIELDS
+     IF MCOUNT=4 OR MCOUNT=5 OR MCOUNT=6 OR MCOUNT=7
+        ON_OFF="ENABLE"
+     ELSE
+        ON_OFF="DISABLE"    
+     ENDIF
+      
+     FLD="FLD"+LTRIM(STR(MCOUNT,2))
+     &FLD=0
+     @ LN,XPOS GET &FLD FUNCTION "*C "+EVALUATE("FIELD["+LTRIM(STR(MCOUNT,2))+"]") &ON_OFF
+
+     @ LN,XPOS+15 SAY STR(FSIZE(EVALUATE("FIELD["+LTRIM(STR(MCOUNT,2))+"]")),3)
+
+     IF LN>12
+        LN=1
+        XPOS=XPOS+25
+     ENDIF
+     LN=LN+1
+   ENDFOR
+   **** DISP CHECK BOX END
+
+@ 14,24 GET button FUNCTION '*HN \?\<Done' ;
+	SIZE 1,9,2 DEFAULT '' VALID clearexit()
+
+READ CYCLE
+RELEASE WINDOW entry
+
+
+FUNCTION clearexit
+
+DO CASE
+	CASE button = 'Done'
+		CLEAR READ
+ENDCASE
+
+
+*********************
+FUNCTION FORMAT_DBF
+
+PPRO_DBF="CREATE TABLE 'PRINTPRO' ( "
+FOR MCOUNT=1 TO ORG_FL_CNT
+    FLD="FLD"+LTRIM(STR(MCOUNT,2))
+
+    IF &FLD=0     &&  NOT SPLIT
+       THIS_FLD=EVALUATE("FIELD["+LTRIM(STR(MCOUNT,2))+"]")
+       PPRO_DBF=PPRO_DBF+THIS_FLD+" C(65),"
+      
+    ELSE          &&  WAS SPLIT INTO TWO
+       THIS_FLD=EVALUATE("FIELD["+LTRIM(STR(MCOUNT,2))+"]")
+       THIS_FLD=RTRIM(SUBSTR(THIS_FLD,1,9))
+       PPRO_DBF=PPRO_DBF+THIS_FLD+"1 C(65),"
+       PPRO_DBF=PPRO_DBF+THIS_FLD+"2 C(65),"
+    ENDIF
+
+ENDFOR
+X=LEN(RTRIM(PPRO_DBF))
+PPRO_DBF= SUBSTR(PPRO_DBF,1,X-1)+") "
+
+* CREATE PRINT STRU BASED ON NEW ORDER FACTOR IN ADDED FIELDS.
+* CREATE TABLE PRINTPRO ( ONECODE C(65), ENDORSEMENT C(65), FULLNAME 
+&PPRO_DBF
+
+
+** Fix by comining add1+suitre and city,st,zip into 1 field for print pro.
+SELECT A
+USE
+SELECT B
+
+APPEND BLANK
+** Place header into first record
+
+REPLACE (FIELD[1]) WITH FIELD[1]
+FOR mcount = 2 TO FCOUNT()
+    IF mcount>FCOUNT()-3
+       REPLACE (FIELD[mcount]) WITH FIELD[mcount]
+    ELSE
+       REPLACE (FIELD[MCOUNT]) WITH "Line"+str(mcount-1,2)
+    ENDIF
+ENDFOR
+
+APPEND FROM (THIS_FILE)
+REPLACE  ENDORSE  WITH RTRIM(SCKNDPCKNM)+' '+RTRIM(ENDORSE);
+ 	     DLVRYDDRSS WITH RTRIM(DLVRYDDRSS)+' '+RTRIM(SUITEAPT);
+ 	     CITY WITH RTRIM(CITY)+' '+RTRIM(STATE)+', '+RTRIM(ZIP4);
+ 	     FSM WITH "FSM:_"+RTRIM(FSM);
+ 	     SCKNDPCKNM WITH '';
+ 	     SUITEAPT WITH '';
+ 	     STATE WITH '';
+ 	     ZIP4 WITH '' ALL for recno()>1
+
+
+****************
+FUNCTION MOVE_UP
+
+GO TOP
+
+@ 17,04 SAY 'Adjusting For Empty Fields..: '
+
+SCAN WHILE NOT EOF()
+  @ 17,34 SAY STR(recno(),5)
+  pos1=2
+  end_pos1=FCOUNT()-3
+  
+  do while pos1<=end_pos1
+     posline=field(pos1)
+     if len(rtrim(&posline))=0
+        cnt=pos1    
+        do while cnt<=end_pos1
+          line=field(cnt)
+          if len(rtrim(&line))#0
+             replace &posline with &line
+             replace &line with ' '
+             exit
+          endif
+          cnt=cnt+1
+        enddo
+    endif
+    pos1=pos1+1
+  enddo
+ENDSCAN
+SET COLOR TO
+
+
+*******************
+FUNCTION CLEAN_UP
+* ERASE PRINTPRO.DBF
+
+****************
+FUNCTION RESET
+
+THIS_FILE=''
+WRAP_TEXT=0
+MAX_WRAP=65
+
+@ 03,10 SAY SPACE(30)
+SHOW GET OPT ENABLE
+SHOW GET WRAP_TEXT DISABLE
+SHOW GET MAX_WRAP DISABLE
